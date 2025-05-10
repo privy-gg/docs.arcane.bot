@@ -14,7 +14,7 @@ export default defineConfig({
     cleanUrls: true,
 
     themeConfig: {
-        logo: "/rounded-logo.png",
+        logo: "/images/rounded-logo.png",
 
         // https://vitepress.dev/reference/default-theme-config
         nav: [
@@ -39,19 +39,19 @@ export default defineConfig({
            		items: [
 		            {
 		                text: "Get Started",
-		                link: "get-started",
+		                link: "/get-started",
 		            },
 		            {
 		                text: "Frequently Asked",
-		                link: "frequently-asked-questions",
+		                link: "/frequently-asked-questions",
 		            },
 		            {
 		                text: "Premium",
-		                link: "premium",
+		                link: "/premium",
 		            },
              	]
          	},
-          {
+          	{
           		text: "Core",
             		items: [
 		            {
@@ -59,18 +59,18 @@ export default defineConfig({
 		                items: [
 							{
 								text: "Command list",
-								link: "core/commands/list"
+								link: "/core/commands/list"
 							},
 							{
 								text: "Command Settings",
-								link: "core/commands/settings"
+								link: "/core/commands/settings"
 							}
 						],
 						collapsed: true,
 		            },
 		            {
 		                text: "Dashboard",
-		                link: "core/dashboard",
+		                link: "/core/dashboard",
 		            },
               	]
           	},
@@ -79,90 +79,76 @@ export default defineConfig({
                 items: [
 	                {
 	                    text: "Leveling",
-						link: "plugins/leveling",
 	                    items: [
-	                        { text: "Commands", link: "/reference/command-reference" },
-	                        { text: "Phishing Scams", link: "/reference/phishing-scams" },
-	                        { text: "Verification Problems", link: "/reference/verification-faq" },
-	                        { text: "FAQ", link: "/reference/faq" },
+							{ text: "Introduction", link: "/plugins/leveling/" },
+							{
+								text: "Setup",
+								items: [
+									{ text: "XP Options", link: "/plugins/leveling/setup/xp-options" },
+									{ text: "Levelup Message", link: "/plugins/leveling/setup/levelup-message" },
+									{ text: "Role Rewards", link: "/plugins/leveling/setup/role-rewards" },
+									{ text: "XP Boosters", link: "/plugins/leveling/setup/xp-boosters" },
+									{ text: "Highlights", link: "/plugins/leveling/setup/highlights" },
+									{ text: "Leaderboard", link: "/plugins/leveling/setup/leaderboard" },
+									{ text: "XP Restrictions", link: "/plugins/leveling/setup/restrictions" },
+								]
+							},
+							{ text: "Rank Card", link: "/plugins/leveling/card" },
+							{ text: "XP Management", link: "/plugins/leveling/management" },
+	                        { text: "Debugging", link: "/plugins/leveling/debugging" },
 	                    ],
 	                    collapsed: true,
 	                },
 	                {
 	                    text: "Moderation",
-						link: "plugins/moderation",
 	                    items: [
-	                        { text: "Auto-Moderator", link: "plugins/moderation/auto-mod" },
-	                        { text: "Commands", link: "plugins/moderation/commands" },
+							{ text: "Introduction", link: "/plugins/moderation/" },
+							{ text: "Setup", link: "/plugins/moderation/setup" },
 	                    ],
 	                    collapsed: true
 	                },
 	                {
 	                    text: "Role Management",
-	                    items: [
-	                        { text: "Auto Roles", link: "plugins/roles/auto-roles" },
-	                        { text: "Reaction Roles", link: "plugins/roles/reaction-roles" }
-	                    ],
+	                    link: "/plugins/roles/placeholder",
 	                    collapsed: true
 	                },
 	                {
 	                    text: "Youtube Notifications",
-	                    link: "plugins/youtube"
+	                    link: "/plugins/youtube"
 	                },
 	                {
 	                    text: "Custom Commands",
-	                    items: [
-	                        { text: "Server Analytics", link: "/logging/server-analytics" },
-	                        { text: "Audit Log", link: "/logging/audit-log" }
-	                    ],
-	                    collapsed: true
-	                },
-	                {
-	                    text: "Auto Responders",
-	                    items: [
-	                        { text: "Server Analytics", link: "/logging/server-analytics" },
-	                        { text: "Audit Log", link: "/logging/audit-log" }
-	                    ],
+	                    link: "/plugins/custom-commands/placeholder",
 	                    collapsed: true
 	                },
 	                {
 	                    text: "Welcomer/Goodbye",
-	                    link: "plugins/welcomer",
+	                    items: [
+							{ text: "Introduction", link: "/plugins/welcomer/" },
+							{ text: "Setup", link: "/plugins/welcomer/setup" },
+						],
 	                    collapsed: true
 	                },
 	                {
 	                    text: "Logging",
 	                    items: [
-	                        { text: "Server Analytics", link: "/logging/server-analytics" },
-	                        { text: "Audit Log", link: "/logging/audit-log" }
+							{ text: "Introduction", link: "/plugins/logging/" },
+							{ text: "Setup", link: "/plugins/logging/setup" },
+							{ text: "Debugging", link: "/plugins/logging/debugging" },
 	                    ],
 	                    collapsed: true
 	                },
 	                {
 	                    text: "Counters",
 	                    items: [
-	                        { text: "Server Analytics", link: "/logging/server-analytics" },
-	                        { text: "Audit Log", link: "/logging/audit-log" }
+	                        { text: "Introduction", link: "/plugins/counters/" },
+	                        { text: "Setup", link: "/plugins/counters/setup" },
+	                        { text: "Debugging", link: "/plugins/counters/debugging" }
 	                    ],
 	                    collapsed: true
 	                },
                 ]
             },
-           	{
-            	text: "Tag System",
-             	items: [
-		            {
-		                text: "Introduction",
-		                link: "get-started",
-		            },
-		            {
-		                text: "Premium",
-		                link: "premium",
-		            },
-                ],
-                collapsed: true,
-            },
-
         ],
 
         outline: {
@@ -170,7 +156,7 @@ export default defineConfig({
         },
 
         footer: {
-            copyright: 'Copyright © 2021-2025 Privy.gg LLC'
+            copyright: 'Copyright © 2025 Privy.gg LLC'
         },
     },
 

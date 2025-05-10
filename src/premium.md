@@ -5,7 +5,13 @@ lastUpdated: true
 
 # Premium
 
-Premium perks are **$7/**/discord server. For the most accurate feature list please visit https://arcane.bot/premium.
+Premium allows us to pay for hosting, salaries, and other required expenditures to run Arcane for over 2,300,000 million Discord servers. Unfortunately, running large real time services is not cheap. Development and support is more than a full time commitment.
+
+Our website also serves ads to help with operational costs. Please feel free to use an ad blocker to remove them if you don't like advertisements.
+
+## Pricing
+
+Premium perks are **$7** per discord server. For the most accurate pricing and feature list please visit https://arcane.bot/premium.
 
 ## Feature list
 
@@ -57,6 +63,8 @@ Premium perks are **$7/**/discord server. For the most accurate feature list ple
 | **Custom Commands** |
 | Custom commands | 5 | 100 |
 
+<sub>Last updated: May 1st, 2025</sub>
+
 ## Activation
 
 Premium is activated immediately (can take up to 5 minutes) after purchase.
@@ -68,3 +76,19 @@ The premium bot is not automatically added to your Discord server
 :::
 
 You can invite the Premium Bot to your server on your server's [dashboard](https://arcane.bot/dashboard) page or on the [premium purchase](https://arcane.bot/premium) page under "Active subscriptions."
+
+## Transferring
+
+You can transfer your premium subscription to a new server one time on the [dashboard](https://arcane.bot/premium) under "Active subscriptions."
+
+Unfortunately, we are unable to transfer your subscription from one Discord account to another. You will need to cancel and resubscribe on your new account.
+
+![Active subscriptions](./images/premium-transfer.png)
+
+## Canceling
+
+You can cancel your premium subscription on the [dashboard](https://arcane.bot/premium) under "Active subscriptions." or by emailing `contact@privy.gg`.
+
+## Terms / Refunds
+
+[Terms & Refund Policy](https://privy.gg/legal)
