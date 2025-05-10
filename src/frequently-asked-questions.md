@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Frequently Asked Questions
 
 Here are some common questions we receive. Please read them all before asking for help in our server.
