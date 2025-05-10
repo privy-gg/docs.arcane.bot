@@ -67,3 +67,8 @@ Arcane needs to have **all** of the following permissions for the levelup messag
 | Send Messages | Arcane needs to be able to send messages |
 | Attach Images | Arcane needs to be able to send images |
 | Embed Links | Arcane needs to be able to embed links |
+
+
+## Weekly/Monthly leaderboards don't reset
+
+Weekly and monthly leaderboards will only reset if you have the respective [notification](./setup/highlights) enabled. This is a known issue, no ETA for fix.

@@ -4,6 +4,10 @@ outline: deep
 
 # Weekly & Monthly Highlights
 
+::: info
+Weekly & Monthly XP are in beta
+:::
+
 Setup is done on the [dashboard](../../../core/dashboard).
 
 ![Highlights](../../../images/leveling/highlights.png)
