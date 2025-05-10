@@ -16,7 +16,9 @@ Arcane can send the levelup message in the channel where the member earned the X
 
 ### Message
 
-Default message: `{user.mention} has reached level **{user.level}**. GG!`
+Default message:
+
+```{user.mention} has reached level **{user.level}**. GG!```
 
 #### Tags
 
@@ -69,7 +71,7 @@ You then leveled up to level 5. Here's the levelup message:
 
 ### Levelup image
 
-Arcane can send a small levelup graphic. There is no customization options available.
+Arcane can send a small levelup graphic. There are no customization options available at this time.
 
 ![Levelup image](../../../images/leveling/levelup-image.png)
 
