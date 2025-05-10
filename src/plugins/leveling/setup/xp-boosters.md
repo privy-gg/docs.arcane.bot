@@ -29,7 +29,7 @@ If stack boosters is **enabled** then they will get a **35%** XP boost. If **dis
 ## Vote Reward
 
 ::: tip Premium only
-Disabling requires a [Premium subscription](../../premium.md). Voting helps advertise and grow Arcane
+Disabling requires a [Premium subscription](/premium.md). Voting helps advertise and grow Arcane
 :::
 
 Members can vote for Arcane on qualifying bot lists to earn a 12 hour 10% XP boost.

@@ -41,7 +41,7 @@ Make sure to go through [Members are not gaining XP](./debugging#members-are-not
 
 ### Premium Bot
 
-Voice leveling requires the premium bot. Make sure that you have invited the [Premium bot](../premium#premium-bot) to your server.
+Voice leveling requires the premium bot. Make sure that you have invited the [Premium bot](/premium#premium-bot) to your server.
 
 ### Members
 

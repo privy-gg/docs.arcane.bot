@@ -14,7 +14,7 @@ export default defineConfig({
     cleanUrls: true,
 
     themeConfig: {
-        logo: "/images/rounded-logo.png",
+        logo: "rounded-logo.png",
 
         // https://vitepress.dev/reference/default-theme-config
         nav: [

@@ -1,4 +1,4 @@
-![Banner](../images/banner.webp)
+![Banner](/images/banner.webp)
 
 # Introduction
 
@@ -20,4 +20,4 @@ We do not have any video tutorials and do not endorse any videos you may find. P
 
 ## Supporting Arcane
 
-You can support Arcane by [inviting](https://arcane.bot/invite) it to your server or by upgrading to a [Premium](../premium.md) plan.
+You can support Arcane by [inviting](https://arcane.bot/invite) it to your server or by upgrading to a [Premium](/premium.md) plan.

@@ -70,7 +70,7 @@ Message XP cannot be disabled. If you do not want your members to earn any XP wh
 ### Voice XP
 
 ::: tip Premium only
-Voice XP requires a [Premium subscription](../../premium.md) & the Premium bot in your server
+Voice XP requires a [Premium subscription](/premium.md) & the Premium bot in your server
 :::
 
 Arcane can reward members XP for participating in your voice channels.
