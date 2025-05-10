@@ -18,7 +18,9 @@ Arcane can send the levelup message in the channel where the member earned the X
 
 Default message:
 
-```{user.mention} has reached level **{user.level}**. GG!```
+```
+{user.mention} has reached level **{user.level}**. GG!
+```
 
 #### Tags
 
