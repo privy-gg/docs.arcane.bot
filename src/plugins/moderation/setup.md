@@ -10,7 +10,9 @@ Please refer to [command settings](../../core/commands/settings) for restricting
 
 ## General Settings
 
+::: tip
 Setup is done on the [dashboard](../../core/dashboard).
+:::
 
 ![Moderation settings](../../images/moderation/moderation-settings.png)
 
@@ -44,7 +46,9 @@ Choose how long Arcane will mute someone for if a time is not provided.
 
 ## Auto Moderation
 
+::: tip
 Setup is done on the [dashboard](../../core/dashboard).
+:::
 
 ![Automod filters](../../images/moderation/automod-filter-list.png)
 

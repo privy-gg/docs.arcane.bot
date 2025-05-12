@@ -4,7 +4,9 @@ outline: deep
 
 # XP Options
 
+::: tip
 Setup is done on the [dashboard](../../../core/dashboard).
+:::
 
 ![XP Options](../../../images/leveling/xp-options.png)
 

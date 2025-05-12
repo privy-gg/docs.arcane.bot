@@ -4,7 +4,9 @@ outline: deep
 
 # Levelup Message
 
+::: tip
 Setup is done on the [dashboard](../../../core/dashboard).
+:::
 
 ![Levelup message](../../../images/leveling/levelup-message.png)
 

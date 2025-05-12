@@ -8,7 +8,9 @@ outline: deep
 XP Restrictions being misconfigured is our largest support item. Read the documentation **VERY CAREFULLY** because if misconfigured your members **WILL NOT EARN XP**. See [debugging](../debugging)
 :::
 
+::: tip
 Setup is done on the [dashboard](../../../core/dashboard).
+:::
 
 ![XP Restrictions](../../../images/leveling/xp-restrictions.png)
 

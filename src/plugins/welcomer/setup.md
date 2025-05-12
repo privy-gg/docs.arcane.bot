@@ -4,7 +4,9 @@ outline: deep
 
 # Welcomer Setup
 
+::: tip
 Setup is done on the [dashboard](../../core/dashboard).
+:::
 
 When setting up a welcome or goodbye message you will need to select a channel for the message to send in.
 

@@ -8,7 +8,9 @@ Arcane can notify your members of new videos, streams, and shorts.
 
 ## Setup
 
+::: tip
 Setup is done on the [dashboard](../core/dashboard).
+:::
 
 <video controls="controls" src="../images/youtube-notification-creation.mp4" />
 

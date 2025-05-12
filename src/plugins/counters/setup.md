@@ -4,7 +4,9 @@ outline: deep
 
 # Counters Setup
 
+::: tip
 Setup is done on the [dashboard](../../core/dashboard).
+:::
 
 ## Counters
 

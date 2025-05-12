@@ -8,7 +8,9 @@ outline: deep
 Weekly & Monthly XP are in beta
 :::
 
+::: tip
 Setup is done on the [dashboard](../../../core/dashboard).
+:::
 
 ![Highlights](../../../images/leveling/highlights.png)
 

@@ -4,7 +4,9 @@ outline: deep
 
 # Logging Setup
 
+::: tip
 Setup is done on the [dashboard](../../core/dashboard).
+:::
 
 <video controls="controls" src="../../images/logging/setup.mp4" />
 
