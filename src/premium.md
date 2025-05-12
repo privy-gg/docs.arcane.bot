@@ -77,6 +77,10 @@ The premium bot is not automatically added to your Discord server
 
 You can invite the Premium Bot to your server on your server's [dashboard](https://arcane.bot/dashboard) page or on the [premium purchase](https://arcane.bot/premium) page under "Active subscriptions."
 
+### Do I need to keep the normal bot?
+
+It depends. If you purchased premium through https://arcane.bot/premium then you can remove the normal bot after you invite the premium bot. If you purchased premium through the [Discord client](https://discord.com/discovery/applications/437808476106784770/store) then you will need to keep the normal bot in your server.
+
 ## Transferring
 
 You can transfer your premium subscription to a new server one time on the [dashboard](https://arcane.bot/premium) under "Active subscriptions."
