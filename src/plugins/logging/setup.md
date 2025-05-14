@@ -53,3 +53,8 @@ Arcane will not post channel update logs for these channels.
 - User video or stream state changes<sup>*</sup>
 
 <sup>*A debouncer will prevent users from spamming your logs by spamming mute/unmute/etc</sup>
+
+## Command Events
+
+- Arcane commands ran
+- Other bot commands ran (slash commands only)
