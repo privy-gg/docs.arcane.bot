@@ -35,7 +35,6 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 | Booster channels | 1 | ∞ |
 | Disable vote booster | No | Yes |
 | Leaderboard banner | No | Yes |
-| View entire leaderboard | No | Yes |
 | Weekly leaderboards | Yes | Yes |
 | Monthly leaderboards | No | Yes |
 | Weekly/Monthly notifications | Image | Image |
@@ -63,7 +62,7 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 | **Custom Commands** |
 | Custom commands | 5 | 100 |
 
-<sub>Last updated: May 1st, 2025</sub>
+<sub>Last updated: May 19th, 2025</sub>
 
 ## Activation
 
