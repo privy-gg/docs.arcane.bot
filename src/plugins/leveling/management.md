@@ -8,11 +8,17 @@ outline: deep
 
 ### Max Level
 
-The max level members can organically earn. You can configure this yourself on the [dashboard](./setup/xp-options#max-level) to any value (or no value for unlimited)
+The max level members can organically earn. You can configure this yourself on the [dashboard](./setup/xp-options#max-level) to any value (or no value for unlimited).
 
 ### `/xp` limit
 
-The max level you can set with the `/xp` command. The default is 100. [Premium](../../premium) servers can request an increase to this value if there are multiple people who have organically leveled up to around the current limit
+:::tip
+[Premium](../../premium) servers can request an increase to this value if there are multiple people who have organically leveled up to around the current limit.
+:::
+
+The max level you can set with the `/xp` command. The default is **100**.
+
+`/xp add`, `/xp set xp`, and `/xp set level` will not work for members higher than the `/xp` limit.
 
 `/xp` is limited to **prevent abuse**. No, you are not cool by setting yourself to level 1 million just so you're rank #1.
 

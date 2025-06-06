@@ -69,6 +69,10 @@ All XP sources have the following settings:
 
 Message XP cannot be disabled. If you do not want your members to earn any XP when sending messages you can add all your text channels as no xp channels.
 
+### Reaction XP
+
+Arcane can reward members XP for reacting to messages with reactions. By default reaction xp has a 5 minute cooldown.
+
 ### Voice XP
 
 ::: tip Premium only
