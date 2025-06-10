@@ -32,7 +32,7 @@ If a command does not support message/prefix commands it will be marked with an 
 | - | - | - |
 | `/level` | Displays your or the specified member's level and XP progres | N/A  |
 | `/leaderboard` | Display the servers top 10 and top 100 members | N/A  |
-| `/xp`<sup>*</sup> | Add or modify a user's XP or level | Manage Server  |
+| [`/xp`](../../plugins/leveling/management.md)<sup>*</sup> | Add or modify a user's XP or level | [Manage Server](../../plugins/leveling/setup/xp-management.md)  |
 | `/boosters` | Display the list of XP role and channel boosters | N/A  |
 | `/rewards` | Display the list of role rewards | N/A |
 | `/card` | Manage your rank card settings | N/A |
