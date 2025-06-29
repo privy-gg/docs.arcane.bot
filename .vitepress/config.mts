@@ -13,6 +13,8 @@ export default defineConfig({
 
     cleanUrls: true,
 
+    appearance: 'dark',
+
     themeConfig: {
         logo: "/rounded-logo.png",
 
@@ -30,7 +32,7 @@ export default defineConfig({
         socialLinks: [
             { icon: "discord", link: "https://discord.gg/arcane" },
             { icon: "x", link: "https://x.com/discordarcane" },
-            // { icon: "github", link: "https://github.com/privy-gg/" }
+            { icon: "github", link: "https://github.com/privy-gg/docs.arcane.bot" }
         ],
 
         sidebar: [
@@ -149,6 +151,11 @@ export default defineConfig({
 	                },
                 ]
             },
+
+            {
+            	text: 'Changelogs',
+            	link: `/changelogs/`
+            }
         ],
 
         outline: {

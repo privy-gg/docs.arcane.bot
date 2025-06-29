@@ -13,7 +13,7 @@ The max level members can organically earn. You can configure this yourself on t
 ### `/xp` limit
 
 :::tip
-[Premium](../../premium) servers can request an increase to this value if there are multiple people who have organically leveled up to around the current limit.
+[Premium](../../premium) servers can request an increase [in our support server](https://discord.gg/arcane) to this value if there are multiple people who have organically leveled up to around the current limit.
 :::
 
 The max level you can set with the `/xp` command. The default is **100**.
