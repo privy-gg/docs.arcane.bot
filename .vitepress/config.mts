@@ -149,6 +149,11 @@ export default defineConfig({
 	                },
                 ]
             },
+
+            {
+            	text: 'Changelogs',
+            	link: `/changelogs/`
+            }
         ],
 
         outline: {
