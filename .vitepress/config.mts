@@ -13,6 +13,8 @@ export default defineConfig({
 
     cleanUrls: true,
 
+    appearance: 'dark',
+
     themeConfig: {
         logo: "/rounded-logo.png",
 
