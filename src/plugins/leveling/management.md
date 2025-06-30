@@ -35,6 +35,16 @@ The `/xp` command is available for you to manage your members xp & level values.
 | `/xp reset server` | Reset the XP and level of everyone in the server |
 | `/xp reset member` | Reset the XP and level of a member |
 
+## Resetting statistics
+
+::: danger DANGER
+Resetting statistics CANNOT be undone
+:::
+
+By default, when resetting levels and xp, Arcane will not reset statistics (messages, reactions, voice time, etc). If you would like these to be reset you can toggle reset stats when running `/xp` or when on the online leaderboard.
+
+![Reset stats](../../images/leveling/reset-stats.png)
+
 ## Resetting members who have left
 
 ::: tip

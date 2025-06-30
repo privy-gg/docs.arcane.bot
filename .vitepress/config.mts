@@ -91,6 +91,7 @@ export default defineConfig({
 									{ text: "Role Rewards", link: "/plugins/leveling/setup/role-rewards" },
 									{ text: "XP Boosters", link: "/plugins/leveling/setup/xp-boosters" },
 									{ text: "Highlights", link: "/plugins/leveling/setup/highlights" },
+									{ text: "XP Management", link: "/plugins/leveling/setup/xp-management" },
 									{ text: "Leaderboard", link: "/plugins/leveling/setup/leaderboard" },
 									{ text: "XP Restrictions", link: "/plugins/leveling/setup/restrictions" },
 								]
