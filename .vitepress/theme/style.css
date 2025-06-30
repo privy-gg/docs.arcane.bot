@@ -125,6 +125,12 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+.dark {
+  --vp-custom-block-tip-bg: var(--vp-custom-block-info-bg);
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-code-bg: var(--vp-custom-block-info-bg);
+}
+
 /**
  * Component: Algolia
  * -------------------------------------------------------------------------- */

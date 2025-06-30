@@ -35,6 +35,8 @@ Background images are a [Premium](../../premium) feature.
 
 Upload your background image to https://imgur.com. Then follow the steps in this video to get the direct link to the image. You can adjust the opacity if needed.
 
+Background images should be 1200px wide by 500px tall.
+
 <video controls="controls" src="../../images/welcomer/imgur.mp4" />
 
 ## Reaction
