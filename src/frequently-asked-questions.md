@@ -16,7 +16,7 @@ Arcane and Arcane-chan ✨ are the same bot but with a different name and avatar
 
 ## Roles aren't assigning
 
-Arcane needs to have the **Manage Roles** permission & be **above** the roles you want Arcane to be able to assign.
+Arcane needs to have the **Manage Roles** permission & be **above** the roles you want Arcane to be able to assign. Arcane will not assign elevated roles. (Roles which have the `Administrator` or `Manage Server` permission)
 
 <video controls="controls" src="/images/role-permissions.mp4" />
 
