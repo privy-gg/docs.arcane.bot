@@ -6,6 +6,10 @@ outline: deep
 
 Showcase your server's stats in style with voice channels. Quickly and easily setup counters to showcase your server's member count, bots, boosts, and more.
 
+## Setup
+
+- [Setup](./setup)
+
 ## Basic Counters
 Setup basic counters to showcase your server's statistics!
 

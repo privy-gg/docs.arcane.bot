@@ -6,6 +6,10 @@ outline: deep
 
 Arcane's welcomer plugin can be used to greet and log members who leave your server. You may also be interested in the [logging](../logging/index.md) plugin if you just want logs for moderation purposes.
 
+## Setup
+
+- [Setup](./setup)
+
 ## Features
 
 ### Welcome Messages

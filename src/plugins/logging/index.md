@@ -6,6 +6,10 @@ outline: deep
 
 Arcane can send your server's audit log (and more) to channels of your choice.
 
+## Setup
+
+- [Setup](./setup)
+
 ## Message Logs
 
 Log messages which are deleted or edited.

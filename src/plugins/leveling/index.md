@@ -6,6 +6,21 @@ outline: deep
 
 Arcane's leveling plugin incentivizes your members to participate in your server. Reward your members for different types of activity by auto assigning role rewards.
 
+## Setup
+
+:::tip
+Having issues with leveling? See [debugging](./debugging).
+:::
+
+- [XP Options](./setup/xp-options)
+- [Levelup Message](./setup/levelup-message)
+- [Role Rewards](./setup/role-rewards)
+- [XP Boosters](./setup/xp-boosters)
+- [Highlights](./setup/highlights)
+- [XP Management](./setup/xp-management)
+- [Leaderboard](./setup/leaderboard)
+- [XP Restrictions](./setup/restrictions)
+
 ## XP Sources
 
 Depending on your server's configuration Arcane can award XP for the following activity:
