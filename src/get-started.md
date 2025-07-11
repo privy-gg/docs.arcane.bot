@@ -6,14 +6,14 @@ This is the documentation for [Arcane.bot](https://arcane.bot). These docs are a
 
 ## Plugins
 
-- [Leveling](./plugins/leveling)
-- [Moderation](./plugins/moderation)
+- [Leveling](./plugins/leveling/index)
+- [Moderation](./plugins/moderation/index)
 - [Role Management](./plugins/roles/placeholder)
 - [Youtube](./plugins/youtube)
 - [Custom Commands](./plugins/custom-commands/placeholder)
-- [Welcomer/Goodbye](./plugins/welcomer)
-- [Logging](./plugins/logging)
-- [Counters](./plugins/counters)
+- [Welcomer/Goodbye](./plugins/welcomer/index)
+- [Logging](./plugins/logging/index)
+- [Counters](./plugins/counters/index)
 
 ## Other resources
 
