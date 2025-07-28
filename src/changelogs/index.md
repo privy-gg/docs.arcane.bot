@@ -7,7 +7,7 @@ import { data as changelogs } from '../../.vitepress/changelogs.data.ts'
 Changelogs are posted here from our `#changelog` channel in our [support server](https://discord.gg/arcane).
 
 ::: info
-This page includes changelogs from 2023 onward. Older changelogs from the past 7 years are not included to save time on importing and managing them. Older changelogs may not be formatted as nicely as newer changelogs to preserve their original form.
+This page includes changelogs from 2023 onward. Older changelogs from the past {{ new Date().getFullYear() - 2018 }} years are not included to save time on importing and managing them. Older changelogs may not be formatted as nicely as newer changelogs to preserve their original form.
 :::
 
 <ul>
