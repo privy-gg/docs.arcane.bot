@@ -16,7 +16,7 @@ Role Rewards are assigned when members reach a particular level.
 
 ### Update Frequency
 
-Arcane only assigns role rewards when member's levelup or when they run the `/level` command. Arcane will never retroactively apply role rewards to fix permission errors or add new role rewards to existing members. Discord does not want bots mass assigning roles.
+Arcane only assigns role rewards when members levelup or when they run the `/level` command. Arcane will never retroactively apply role rewards to fix permission errors or add new role rewards to existing members. Discord does not want bots mass assigning roles.
 
 ### Limits
 
