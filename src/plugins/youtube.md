@@ -40,3 +40,14 @@ To mention a role the format is `<@&ROLE_ID>`. For example: `<@&1367681624841519
 Here's a simple way to get the role id. Just do this in a private channel so you don't ping anyone ;)
 
 <video controls="controls" src="../images/get-role-id.mp4" />
+
+### Limits
+
+::: tip Premium only
+If you have reached the 5 alert limit you can purchased more alerts by reaching out in our [support server](https://discord.gg/arcane) or by emailing contact@privy.gg
+:::
+
+| **Tier** | **Youtube Alerts** |
+| - | - |
+| Free | 2 |
+| Premium | 5 |

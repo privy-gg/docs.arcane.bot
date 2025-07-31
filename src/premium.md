@@ -38,7 +38,7 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 | Weekly leaderboards | Yes | Yes |
 | Monthly leaderboards | No | Yes |
 | Weekly/Monthly notifications | Image | Image |
-| /xp restrictions lifted | No | By request |
+| /xp restrictions lifted | No | By request<sup>1</sup> |
 | **Moderation** |
 | Moderation plugin | Yes | Yes |
 | **Counters** |
@@ -58,11 +58,17 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 | **Roles** |
 | Reaction roles | 10 | 100 |
 | **Youtube Notifications** |
-| Youtube Alerts | 2 | 5 |
+| Youtube Alerts | 2 | 5<sup>2</sup> |
 | **Custom Commands** |
 | Custom commands | 5 | 100 |
 
-<sub>Last updated: May 19th, 2025</sub>
+<sub>
+1. Only available to subscriptions which are not in trial
+<br>
+2. Additional Youtube alerts can be purchased. Read more <a href="./plugins/youtube#limits">here</a>
+</sub>
+
+<sub>Last updated: July 31st, 2025</sub>
 
 ## Activation
 
