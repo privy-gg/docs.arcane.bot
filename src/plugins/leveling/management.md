@@ -12,15 +12,15 @@ The max level members can organically earn. You can configure this yourself on t
 
 ### `/xp` limit
 
-:::tip
-[Premium](../../premium) servers can request an increase [in our support server](https://discord.gg/arcane) to this value if there are multiple people who have organically leveled up to around the current limit.
-:::
+The **`/xp` limit** controls the highest level that can be manually set or modified. This limit exists to **prevent abuse** and keep leveling fair for all members in the server. By default, the limit is set to **100**. [Premium](../../premium) servers have a dynamic limit past level 100.
 
-The max level you can set with the `/xp` command. The default is **100**.
+#### Premium servers:
+[Premium](../../premium) servers have a **dynamic** limit based on your server's **highest leveled members**.
 
-`/xp add`, `/xp set xp`, and `/xp set level` will not work for members higher than the `/xp` limit.
-
-`/xp` is limited to **prevent abuse**. No, you are not cool by setting yourself to level 1 million just so you're rank #1.
+- It increases **automatically** as your top users level up organically
+- It **cannot** be increased manually or requested
+- The exact cap is **not shown**
+- In some cases, it may be lower than your highest member, meaning you may be unable to assign more XP or levels to that user until other users level up
 
 ## `/xp` Command
 
