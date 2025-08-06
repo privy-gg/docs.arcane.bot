@@ -121,7 +121,28 @@ export default defineConfig({
 	                },
 	                {
 	                    text: "Custom Commands",
-	                    link: "/plugins/custom-commands/placeholder",
+	                    items: [
+							{ text: "Introduction", link: "/plugins/custom-commands/" },
+							{ text: "Setup", link: "/plugins/custom-commands/setup" },
+							{
+								text: "Examples",
+								items: [],
+								collapsed: true,
+							}
+						],
+	                    collapsed: true
+	                },
+	                {
+	                    text: "Auto Responders",
+	                    items: [
+							{ text: "Introduction", link: "/plugins/auto-responders/" },
+							{ text: "Setup", link: "/plugins/auto-responders/setup" },
+							{
+								text: "Examples",
+								items: [],
+								collapsed: true,
+							}
+						],
 	                    collapsed: true
 	                },
 	                {
@@ -152,6 +173,13 @@ export default defineConfig({
 	                },
                 ]
             },
+
+            {
+	            text: "Tag System",
+	            items: [
+	                { text: "Introduction", link: "/tag-system/" },
+	            ],
+	        },
 
             {
             	text: 'Changelogs',
