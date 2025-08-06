@@ -37,7 +37,11 @@ features:
   - icon: ⁄
     title: Custom Commands
     details: Use custom commands to build additional functionality for your server.
-    link: plugins/custom-commands/placeholder
+    link: plugins/custom-commands
+  - icon: ⁄
+    title: Auto Responders
+    details: Use auto responders to automatically respond to your members.
+    link: plugins/auto-responders
   - icon: 👋
     title: Welcomer/Goodbye
     details: Great and welcome your newest members with a welcome message, image, and reactions.
