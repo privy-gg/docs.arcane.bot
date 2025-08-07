@@ -2,4 +2,4 @@
 outline: deep
 ---
 
-# Custom Commands
+# Auto Responders
