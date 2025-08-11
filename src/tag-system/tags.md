@@ -4,6 +4,10 @@ outline: deep
 
 # Tag Reference
 
+::: tip
+Throughout the tag system docs we will refer to [custom commands](/plugins/custom-commands/index) as "cc" and [auto responders](/plugins/auto-responders/index) as "ar"
+:::
+
 TODO:
 
 Tags are either a variable or a function. Function tags typically do not return a value and will be omitted from the response. On this page you will find a full list of supported tags. Some tags have additional aliases which you may find, but if they are not documented they can be removed at any time.
@@ -123,7 +127,7 @@ You can have multiple requirement functions in a cc/ar
 | `{redirect:}` | `{redirect:general}` `{redirect:902348151170670633}` | redirect the cc/ar response to a different channel |
 | `{break}` | `{break:Ending early!}` | end the cc/ar early and return a message |
 
-### Conditional
+### Conditionals
 
 // TODO: explain conditionals
 

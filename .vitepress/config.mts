@@ -126,6 +126,7 @@ export default defineConfig({
 							{ text: "Setup", link: "/plugins/custom-commands/setup" },
 							{
 								text: "Examples",
+								link: "/plugins/custom-commands/examples/",
 								items: [],
 								collapsed: true,
 							}
@@ -139,6 +140,7 @@ export default defineConfig({
 							{ text: "Setup", link: "/plugins/auto-responders/setup" },
 							{
 								text: "Examples",
+								link: "/plugins/auto-responders/examples/",
 								items: [],
 								collapsed: true,
 							}
@@ -179,6 +181,17 @@ export default defineConfig({
 	            items: [
 	                { text: "Introduction", link: "/tag-system/" },
 					{ text: "Reference", link: "/tag-system/tags" },
+					{
+						text: "Examples",
+						link: "/tag-system/examples/",
+						items: [
+							{
+								text: "Conditionals",
+								link: "/tag-system/examples/conditionals"
+							}
+						],
+						collapsed: true
+				 	},
 	            ],
 	        },
 
