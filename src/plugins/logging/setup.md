@@ -15,6 +15,15 @@ Setup is done on the [dashboard](../../core/dashboard).
 - Message edit
 - Message delete: Individual and bulk message deletions
 
+### Message retention limits
+
+Arcane only stores messages sent after message logs are enabled & only for the stated retention periods below. Messages which are edited will have their retention period reset. Messages will only be logged if they are being stored by Arcane.
+
+| **Tier** | **Message Retention** |
+| - | - |
+| Free | 1 hour |
+| Premium | 12 hours |
+
 ### Exempt Channels
 
 Arcane will not post logs for messages in these channels.
