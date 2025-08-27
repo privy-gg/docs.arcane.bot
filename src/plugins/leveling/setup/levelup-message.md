@@ -8,7 +8,7 @@ outline: deep
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![Levelup message](../../../images/leveling/levelup-message.png)
+<video controls="controls" src="../../../images/leveling/levelup-message.mp4" />
 
 ## Levelup Message
 
