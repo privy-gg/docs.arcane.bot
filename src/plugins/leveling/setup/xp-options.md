@@ -56,12 +56,12 @@ The max level is the max level which your members are able to earn. If none is s
 
 ## XP Options
 
-All XP sources have the following settings. Some XP sources have additional settings.
+All XP sources have the following settings. Some XP sources have additional settings documented below.
 
 | **Setting** | **Explanation** |
 | - | - |
 | Min | The minimum amount of XP members will earn |
-| Max | The minimum amount of XP members will earn. |
+| Max | The minimum amount of XP members will earn |
 | Cooldown | This is how often (in seconds) members can earn for the XP source |
 
 ### Message XP
