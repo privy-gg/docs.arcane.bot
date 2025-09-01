@@ -44,5 +44,5 @@ When we introduced reaction XP we made the decision to only give XP to members w
 Now you can choose if you want the **message author**, the **member/reactor** who added the reaction, or **both** to receive XP. Read more about reaction XP [here](/plugins/leveling/setup/xp-options#reaction-xp).
 
 ::: tip
-If you currently have reaction XP enabled, it will continue only giving XP to the **reactor**. You can enable rewarding the message author on the dashboard. New servers will default to **both**.
+If you currently have reaction XP enabled, it will continue only giving XP to the **reactor**. You can enable rewarding the message author on the [dashboard](/core/dashboard). New servers will default to **both**.
 :::
