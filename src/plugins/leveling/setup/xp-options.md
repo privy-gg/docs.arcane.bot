@@ -66,7 +66,7 @@ All XP sources have the following settings. Some XP sources have additional sett
 
 ### Message XP
 
-Arcane can reward members XP for sending messages in your servers. By default Arcane rewards per message.
+Arcane can reward members XP for sending messages in your servers. By default Arcane rewards per message. The default cooldown is **1 minute**.
 
 #### Message XP Mode
 
@@ -77,7 +77,11 @@ Arcane offers two Message XP Modes:
 
 ### Reaction XP
 
-Arcane can reward members XP for reacting to messages with reactions. By default reaction xp has a 5 minute cooldown.
+Arcane can reward members XP for reacting to messages with reactions. By default reaction xp has a **5 minute** cooldown.
+
+#### Awards
+
+Arcane can reward members for **receiving reactions** on their message, for **adding reactions** to messages, or **both**. The cooldown for getting XP for adding and receiving reactions are shared.
 
 ### Voice XP
 
@@ -85,7 +89,7 @@ Arcane can reward members XP for reacting to messages with reactions. By default
 Voice XP requires a [Premium subscription](/premium.md) & the Premium bot in your server
 :::
 
-Arcane can reward members XP for participating in your voice channels.
+Arcane can reward members XP for participating in your voice channels. The default cooldown is **3 minutes**.
 
 #### Minimum Members
 
