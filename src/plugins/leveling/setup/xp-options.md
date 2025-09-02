@@ -56,22 +56,32 @@ The max level is the max level which your members are able to earn. If none is s
 
 ## XP Options
 
-All XP sources have the following settings:
+All XP sources have the following settings. Some XP sources have additional settings documented below.
 
 | **Setting** | **Explanation** |
 | - | - |
 | Min | The minimum amount of XP members will earn |
-| Max | The minimum amount of XP members will earn. |
+| Max | The minimum amount of XP members will earn |
 | Cooldown | This is how often (in seconds) members can earn for the XP source |
-
 
 ### Message XP
 
-Message XP cannot be disabled. If you do not want your members to earn any XP when sending messages you can add all your text channels as no xp channels.
+Arcane can reward members XP for sending messages in your servers. By default Arcane rewards per message. The default cooldown is **1 minute**.
+
+#### Message XP Mode
+
+Arcane offers two Message XP Modes:
+
+- **Random**: Awards random XP between min and max per message. The default mode.
+- **Per Word**: Awards max XP per word (3+ characters) in a message with more words/characters than whitespace/non-alphanumeric characters. Min and max XP are automatically set equal.
 
 ### Reaction XP
 
-Arcane can reward members XP for reacting to messages with reactions. By default reaction xp has a 5 minute cooldown.
+Arcane can reward members XP for reacting to messages with reactions. By default reaction xp has a **5 minute** cooldown.
+
+#### Awards
+
+Arcane can reward members for **receiving reactions** on their message, for **adding reactions** to messages, or **both**. The cooldown for getting XP for adding and receiving reactions are shared.
 
 ### Voice XP
 
@@ -79,7 +89,7 @@ Arcane can reward members XP for reacting to messages with reactions. By default
 Voice XP requires a [Premium subscription](/premium.md) & the Premium bot in your server
 :::
 
-Arcane can reward members XP for participating in your voice channels.
+Arcane can reward members XP for participating in your voice channels. The default cooldown is **3 minutes**.
 
 #### Minimum Members
 
