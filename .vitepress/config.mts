@@ -1,8 +1,13 @@
 import { defineConfig } from "vitepress"
+import llmstxt from "vitepress-plugin-llms"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     srcDir: 'src',
+
+    vite: {
+		plugins: [llmstxt({ ignoreFiles: ["changelogs/*", "changelogs/*/*"],  })]
+	},
 
     title: "Arcane.bot",
     description: "Documentation and setup guide for Arcane.bot",
