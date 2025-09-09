@@ -9,6 +9,10 @@ Arcane's leveling module has lots of moving parts so its easy to make it "not wo
 
 Many things can be incorrectly configured and make Arcane appear to need fixing. Just note that Arcane **does not** just "break" and stop giving XP. If Arcane is not giving users XP, then you should check the following:
 
+### XP Sources
+
+Make sure the relevant XP sources (Messages, Reactions, Voice) are enabled under XP Options.
+
 ### No XP Roles
 Verify that the member or members do not have a no XP role.
 
