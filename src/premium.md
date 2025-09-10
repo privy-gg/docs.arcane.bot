@@ -5,7 +5,7 @@ lastUpdated: true
 
 # Premium
 
-Premium allows us to pay for hosting, salaries, and other required expenditures to run Arcane for over 2,300,000 million Discord servers. Unfortunately, running large real time services is not cheap. Development and support is more than a full time commitment.
+Premium allows us to pay for hosting, salaries, and other required expenditures to run Arcane for over 2,500,000 million Discord servers. Unfortunately, running large real time services is not cheap. Development and support is more than a full time commitment.
 
 Our website also serves ads to help with operational costs. Please feel free to use an ad blocker to remove them if you don't like advertisements.
 
@@ -19,6 +19,8 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 | - | - | - |
 | **Basic** |
 | Basic features and config | Yes | Yes |
+| **Bot Customizer** |
+| Custom name, avatar, banner & about-me | No | Yes |
 | **Voice Leveling** |
 | Voice leveling/xp | No | Yes |
 | Custom voice XP values | No | Yes |
