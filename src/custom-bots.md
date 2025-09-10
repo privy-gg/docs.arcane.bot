@@ -9,6 +9,8 @@ Setup is done on the [dashboard](./core/dashboard).
 :::
 
 ![Custom Bot Settings](./images/custom-bot.png)
+<!-- TODO: Discord profile preview -->
+
 
 Arcane's Custom Bot feature allows you to set a custom name, avatar, banner, and about me to personalize Arcane for your server.
 
@@ -20,11 +22,11 @@ Names must be between 1 and 32 characters long.
 
 ### Avatar
 
-Avatars can be a PNG, JPG, or GIF. Must be under 8MB in size.
+To upload an avatar click you just need to click on the existing avatar. Avatars can be a PNG, JPG, or GIF. Must be under 8MB in size.
 
 ### Banner
 
-Discord recommends a PNG, JPG, or GIF that is at least 600x240px. Must be under 10MB in size.
+To upload a banner click you just need to click on the existing banner. Discord recommends a PNG, JPG, or GIF that is at least 600x240px. Must be under 10MB in size.
 
 ### About Me
 
@@ -43,7 +45,7 @@ Yes. Arcane Premium modifies its name, avatar, and other properties just for you
 ### Moderation / What's allowed
 
 ::: danger NO NSFW CONTENT
-NSFW or any image we deem inappropriate will result in a permanent blacklist Arcane & Arcane Premium.
+NSFW or any image we deem inappropriate will result in a permanent blacklist from Arcane & Arcane Premium.
 
 **You can report an inappropriate custom bot in our [support server](https://discord.gg/arcane).**
 :::
