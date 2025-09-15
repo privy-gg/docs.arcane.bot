@@ -26,7 +26,7 @@ Default message:
 
 #### Tags
 
-Tags can be used inside of the levelup message. There are other tags available but if they are not documented then they are not officially supported and can break at any time.
+Tags can be used inside of the levelup message.
 
 ##### User
 - `{user.mention}` - Mentions the user
@@ -72,6 +72,24 @@ You then leveled up to level 5. Here's the levelup message:
 ```
 :::
 </details>
+
+#### Embeds
+
+The levelup message supports embeds. See [Embeds](/tag-system/tags#embeds).
+
+#### Advanced tags
+
+::: tip Premium only
+Advanced tags require a [Premium subscription](/premium.md)
+:::
+
+Levelup messages also support **most** [advanced tags](/tag-system/index) such as:
+- [`{if()...}`](/tag-system/tags#conditionals)
+- [`{contains()...}`](/tag-system/tags#arrays)
+- [`{choose:one|two|three}`](/tag-system/tags#choose)
+- and more
+
+Role management tags are not supported in levelup messages. Use [Role Rewards](./role-rewards)
 
 ### Levelup image
 
