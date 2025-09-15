@@ -1,16 +1,15 @@
 ---
 outline: deep
 search: false
-date: 9-10-2025
+date: 9-15-2025
 title: Custom Bots
 ---
 
-# 9-10-2025
+# 9-15-2025
 
 We are excited to announce that premium servers can now customize Arcane with your own avatar, banner, name, and about me. Read more about the feature [here](/custom-bots).
 
 ![Custom bot settings](../../images/custom-bot.png)
-<!-- TODO: Discord profile preview -->
 
 ## FAQ
 

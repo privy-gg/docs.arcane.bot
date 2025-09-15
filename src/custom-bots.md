@@ -9,8 +9,6 @@ Setup is done on the [dashboard](./core/dashboard).
 :::
 
 ![Custom Bot Settings](./images/custom-bot.png)
-<!-- TODO: Discord profile preview -->
-
 
 Arcane's Custom Bot feature allows you to set a custom name, avatar, banner, and about me to personalize Arcane for your server.
 
