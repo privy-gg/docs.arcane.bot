@@ -14,6 +14,8 @@ Arcane's Custom Bot feature allows you to set a custom name, avatar, banner, and
 
 ## Settings
 
+Use the save button to tell Arcane to sync your settings to Discord. Discord limits how frequently Arcane can update it's avatar, banner, and nickname so you may need to try again later to sync your changes.
+
 ### Name
 
 Names must be between 1 and 32 characters long.
