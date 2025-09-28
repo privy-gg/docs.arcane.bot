@@ -29,6 +29,8 @@ Default message:
 Tags can be used inside of the levelup message. There are other tags available but if they are not documented then they are not officially supported and can break at any time.
 
 ##### User
+- `{user.level}` - The user's new level
+- `{user.xp}` - The user's new XP progress to their next level. (NOT total XP earned)
 - `{user.mention}` - Mentions the user
 - `{user.username}` `{user.name}` - The username of the member
 - `{user.id}` - The id of the member
