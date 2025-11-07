@@ -16,16 +16,19 @@ When setting up a welcome or goodbye message you will need to select a channel f
 
 Tags can be used in the message and image fields.
 
-#### User
+### User
 - `{user.mention}` - Mentions the user
 - `{user.username}` `{user.name}` - The username of the member
 - `{user.id}` - The id of the member
 
-#### Server
+### Server
 - `{guild.name}` - The name of the server
 - `{guild.id}` - The id of the server
 - `{guild.membercount}` `{guild.members}` - The amount of members in the server
 
+## Embeds
+
+Welcome and goodbye messages support embeds. See [Embeds](/tag-system/tags#embeds).
 
 ## Image
 

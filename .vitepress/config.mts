@@ -130,7 +130,30 @@ export default defineConfig({
 	                },
 	                {
 	                    text: "Custom Commands",
-	                    link: "/plugins/custom-commands/placeholder",
+	                    items: [
+							{ text: "Introduction", link: "/plugins/custom-commands/" },
+							{ text: "Setup", link: "/plugins/custom-commands/setup" },
+							{
+								text: "Examples",
+								link: "/plugins/custom-commands/examples/",
+								items: [],
+								collapsed: true,
+							}
+						],
+	                    collapsed: true
+	                },
+	                {
+	                    text: "Auto Responders",
+	                    items: [
+							{ text: "Introduction", link: "/plugins/auto-responders/" },
+							{ text: "Setup", link: "/plugins/auto-responders/setup" },
+							{
+								text: "Examples",
+								link: "/plugins/auto-responders/examples/",
+								items: [],
+								collapsed: true,
+							}
+						],
 	                    collapsed: true
 	                },
 	                {
@@ -161,6 +184,25 @@ export default defineConfig({
 	                },
                 ]
             },
+
+            {
+	            text: "Tag System",
+	            items: [
+	                { text: "Introduction", link: "/tag-system/" },
+					{ text: "Reference", link: "/tag-system/tags" },
+					{
+						text: "Examples",
+						link: "/tag-system/examples/",
+						items: [
+							{
+								text: "Conditionals",
+								link: "/tag-system/examples/conditionals"
+							}
+						],
+						collapsed: true
+				 	},
+	            ],
+	        },
 
             {
             	text: 'Changelogs',
