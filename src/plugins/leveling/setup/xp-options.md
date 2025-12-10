@@ -61,7 +61,7 @@ All XP sources have the following settings. Some XP sources have additional sett
 | **Setting** | **Explanation** |
 | - | - |
 | Min | The minimum amount of XP members will earn |
-| Max | The minimum amount of XP members will earn |
+| Max | The maximum amount of XP members will earn |
 | Cooldown | This is how often (in seconds) members can earn for the XP source |
 
 ### Message XP
