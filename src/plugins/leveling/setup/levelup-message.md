@@ -70,7 +70,7 @@ You just leveled up to level 3. Here's the levelup message that will send:
 You then leveled up to level 5. Here's the levelup message:
 
 ```
-@ImDarkDiamond is now level 3. They received the **Active members** role!
+@ImDarkDiamond is now level 5. They received the **Active members** role!
 ```
 :::
 </details>
