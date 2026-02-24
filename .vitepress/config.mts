@@ -173,7 +173,7 @@ export default defineConfig({
         },
 
         footer: {
-            copyright: 'Copyright © 2025 Privy.gg LLC'
+            copyright: 'Copyright © 2025-2026 Privy.gg LLC'
         },
     },
 

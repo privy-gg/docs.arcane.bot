@@ -5,7 +5,7 @@ lastUpdated: true
 
 # Premium
 
-Premium allows us to pay for hosting, salaries, and other required expenditures to run Arcane for over 2,500,000 million Discord servers. Unfortunately, running large real time services is not cheap. Development and support is more than a full time commitment.
+Premium allows us to pay for hosting, salaries, and other required expenditures to run Arcane for over 2,700,000 million Discord servers. Unfortunately, running large real time services is not cheap. Development and support is more than a full time commitment.
 
 Our website also serves ads to help with operational costs. Please feel free to use an ad blocker to remove them if you don't like advertisements.
 
