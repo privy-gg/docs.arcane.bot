@@ -5,7 +5,7 @@ search: false
 
 # Say Command
 
-A simple command which showcases using the [args](/tag-system/tags#args) and [requirements](/tag-system/tags#requirements) tags.
+A simple command which showcases using the [args](/tag-system/reference#args) and [requirements](/tag-system/reference#requirements) tags.
 
 ```
 {require_perm:Administrator}

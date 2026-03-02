@@ -11,7 +11,6 @@ This is the documentation for [Arcane.bot](https://arcane.bot). These docs are a
 - [Role Management](./plugins/roles/placeholder)
 - [Youtube](./plugins/youtube)
 - [Custom Commands](./plugins/custom-commands/index)
-- [Auto Responders](./plugins/auto-responders/index)
 - [Welcomer/Goodbye](./plugins/welcomer/index)
 - [Logging](./plugins/logging/index)
 - [Counters](./plugins/counters/index)

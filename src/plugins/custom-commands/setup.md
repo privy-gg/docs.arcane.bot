@@ -16,7 +16,7 @@ You can create a custom command on the [dashboard](../../core/dashboard).
 
 The command name should **NOT** include a prefix. So if you want to make `/hello` or `!hello` the command name is just "hello". Custom commands use your server's prefix.
 
-Responses can utilize our [tag system](/tag-system/tags). See some of our example commands [here](./examples/index).
+Responses can utilize our [tag system](/tag-system/reference). See some of our example commands [here](./examples/index).
 
 TODO:
 <!-- <video controls="controls" src="../../images/custom-commands/create-command.mp4" /> -->

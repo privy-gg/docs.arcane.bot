@@ -134,20 +134,6 @@ export default defineConfig({
 	                    collapsed: true
 	                },
 	                {
-	                    text: "Auto Responders",
-	                    items: [
-							{ text: "Introduction", link: "/plugins/auto-responders/" },
-							{ text: "Setup", link: "/plugins/auto-responders/setup" },
-							{
-								text: "Examples",
-								link: "/plugins/auto-responders/examples/",
-								items: [],
-								collapsed: true,
-							}
-						],
-	                    collapsed: true
-	                },
-	                {
 	                    text: "Welcomer/Goodbye",
 	                    items: [
 							{ text: "Introduction", link: "/plugins/welcomer/" },
@@ -179,8 +165,7 @@ export default defineConfig({
             {
 	            text: "Tag System",
 	            items: [
-	                { text: "Introduction", link: "/tag-system/" },
-					{ text: "Reference", link: "/tag-system/tags" },
+					{ text: "Reference", link: "/tag-system/reference" },
 					{
 						text: "Examples",
 						link: "/tag-system/examples/",

@@ -5,26 +5,23 @@ outline: deep
 # Tag Reference
 
 ::: tip
-Throughout the tag system docs we will refer to [custom commands](/plugins/custom-commands/index) as "cc" and [auto responders](/plugins/auto-responders/index) as "ar"
+Throughout the tag system docs we will refer to [custom commands](/plugins/custom-commands/index) as "cc"
 :::
 
-TODO:
-
-Tags are either a variable or a function. Function tags typically do not return a value and will be omitted from the response. On this page you will find a full list of supported tags. Some tags have additional aliases which you may find, but if they are not documented they can be removed at any time.
+Tags are either a variable or a function. Function tags typically do not return a value and will be omitted from the response. On this page you will find a full list of supported tags. Tags which are not documented are unsupported and can be removed at any time. 
 
 Variables can be either a string or an [array](#arrays).
 
 ## Variables
 
-TODO:
-
 ### Args
 
 | **Variable** | **Example** | **Description** |
 | - | - | - |
-| `{args}` | hello\|world | the args as an [array](#arrays) |
+| `{args}` | hello world | the args as an [array](#arrays) |
 | `{args[0]}` | hello | get the first arg |
 | `{args[1]}` | world | get the second arg |
+| `{args_array}` | hello\|world | the args as an [array](#arrays) |
 | `{message}` | hello world | get all of the args |
 
 ### Member/User
@@ -56,7 +53,7 @@ The target is only available if a target was supplied. Eg `!test @imdarkdiamond`
 | `{guild.id}` | 437808333295058955 | the guild's id |
 | `{guild.name}` | Arcane | the guilds's name |
 | `{guild.membercount}` `{guild.members}` | 360290 | the guilds's member count |
-| `{guild.icon}` | TODO | link to the guild's icon |
+| `{guild.icon}` | https://cdn.discord.com/xxx | link to the guild's icon |
 | `{guild.owner}` | 295980401560649730 | the guild's owner id |
 
 ### Channel
@@ -70,8 +67,6 @@ The target is only available if a target was supplied. Eg `!test @imdarkdiamond`
 
 ## Functions
 
-TODO:
-
 ### Embeds
 
 | **Function** | **Example** | **Description** |
@@ -79,21 +74,36 @@ TODO:
 | `{embed.title:}` | `{embed.title:Hello World}` | add a title to an embed |
 | `{embed.description:}` | `{embed.description:Hello World}` | add a description to an embed |
 | `{embed.footer:}` | `{embed.title:Hello World}` | add a footer to an embed |
-| `{embed.field:}` | `{embed.field:Title|Description}` | add a field with a title and description to an embed |
+| `{embed.field:}` | `{embed.field:Title\|Description}` | add a field with a title and description to an embed |
 | `{embed.color:}` | `{embed.color:40B2B0}` `{embed.color:#40B2B0}` | add a color to an embed |
-| `{embed.titlestamp}` | `{embed.timestamp}` | add a timestamp to an embed |
-
-// TODO: embed.author cause i cant remember it
-| `{embed.author:}` | `{embed.author:}` | add an author field to an embed |
+| `{embed.timestamp}` | `{embed.timestamp}` | add a timestamp to an embed |
+| `{embed.author:}` | `{embed.author:Name\|url\|image url}` | add an author to an embed. url & image url are optional |
 
 ### Modify Roles
 
 | **Function** | **Example** | **Description** |
 | - | - | - |
-| `{user.add_role()}` `{addrole:}` | `{user.add_role(Pic perms)}` `{user.add_role(123456789101112)}` `{addrole:Pic perms}` | add a role to the user who triggered the cc/ar |
-| `{user.remove_role()}` `{removerole:}` | `{user.remove_role(Pic perms)}` `{user.remove_role(123456789101112)}` `{removerole:Pic perms}` | remove a role from the user who triggered the cc/ar |
+| `{user.add_role()}` `{addrole:}` | `{user.add_role(Pic perms)}` `{user.add_role(123456789101112)}` `{addrole:Pic perms}` | add a role to the user who triggered the cc |
+| `{user.remove_role()}` `{removerole:}` | `{user.remove_role(Pic perms)}` `{user.remove_role(123456789101112)}` `{removerole:Pic perms}` | remove a role from the user who triggered the cc |
 | `{target.add_role()}` | `{target.add_role(Pic perms)}` `{target.add_role(123456789101112)}` | add a role to the target user |
 | `{target.remove_role()}` | `{target.remove_role(Pic perms)}` `{target.remove_role(123456789101112)}` | remove a role from the target user |
+
+
+### Reactions
+
+::: tip Premium only
+[Premium servers](/premium.md) can have up to 5 react tags. Non-premium servers can have up to 2 react tags.
+:::
+
+| **Function** | **Example** | **Description** |
+| - | - | - |
+| `{react:}` | `{react:😎}` | add a reaction to the response |
+
+### Purge
+
+| **Function** | **Example** | **Description** |
+| - | - | - |
+| `{purge:}` | `{purge:10}` | delete X messages from the channel. limited to 100 messages |
 
 ### Choose
 
@@ -104,46 +114,40 @@ TODO:
 ### Requirements
 
 ::: tip
-You can have multiple requirement functions in a cc/ar
+You can have multiple requirement functions in a cc
 :::
 
 | **Function** | **Example** | **Description** |
 | - | - | - |
-| `{require_role:}` | `{require_role:Admin}` `{require_role:520734047736037378}` | limit the cc/ar to a role |
-| `{require_channel:}` | `{require_channel:general}` `{require_channel:902348151170670633}` | limit the cc/ar to a channel |
-| `{require_user:}` | `{require_user:imdarkdiamond}` `{require_user:295980401560649730}` | limit the cc/ar to a user |
-| `{require_permission:}` | `{require_permission:Manage Messages}` `{require_perm:Admin}` | limit the cc/ar to a permission |
-| `{deny_role:}` | `{deny_role:bad}` `{deny_role:520734047736037378}` | block the cc/ar if the user has the role |
-| `{deny_channel:}` | `{deny_channel:general}` `{deny_channel:902348151170670633}` | block the cc/ar in a channel |
-| `{deny_user:}` | `{deny_user:imdarkdiamond}` `{deny_user:295980401560649730}` | block the cc/ar from a user  |
-| `{deny_permission:}` | `{deny_permission:Manage Messages}` `{deny_permission:Admin}` | block the cc/ar from a permission |
+| `{require_role:}` | `{require_role:Admin}` `{require_role:520734047736037378}` | limit the cc to a role |
+| `{require_channel:}` | `{require_channel:general}` `{require_channel:902348151170670633}` | limit the cc to a channel |
+| `{require_user:}` | `{require_user:imdarkdiamond}` `{require_user:295980401560649730}` | limit the cc to a user |
+| `{require_permission:}` | `{require_permission:Manage Messages}` `{require_perm:Admin}` | limit the cc to a permission |
+| `{deny_role:}` | `{deny_role:bad}` `{deny_role:520734047736037378}` | block the cc if the user has the role |
+| `{deny_channel:}` | `{deny_channel:general}` `{deny_channel:902348151170670633}` | block the cc in a channel |
+| `{deny_user:}` | `{deny_user:imdarkdiamond}` `{deny_user:295980401560649730}` | block the cc from a user  |
+| `{deny_permission:}` | `{deny_permission:Manage Messages}` `{deny_permission:Admin}` | block the cc from a permission |
 
 ### Behavior
 
 | **Function** | **Example** | **Description** |
 | - | - | - |
-| `{delete}` | `{delete}` | delete the message that triggered the cc/ar |
+| `{delete}` | `{delete}` | delete the message that triggered the cc |
 | `{delete_reply:}` | `{delete_reply:30}` | delete the reply after X time in seconds |
-| `{redirect:}` | `{redirect:general}` `{redirect:902348151170670633}` | redirect the cc/ar response to a different channel |
-| `{break}` | `{break:Ending early!}` | end the cc/ar early and return a message |
+| `{redirect:}` | `{redirect:general}` `{redirect:902348151170670633}` | redirect the cc response to a different channel |
+| `{break}` | `{break:Ending early!}` | end the cc early and return a message |
 
 ### Conditionals
 
-// TODO: explain conditionals
-
-// TODO: link to examples/conditionals.md
-
 | **Function** | **Example** | **Description** |
 | - | - | - |
-| `{if(condition comparison op condition):then\|else}` | `{if({user.name}==imdarkdiamond):Hello Dark\|You're not dark!}` | TODO description |
-| `{any}` | `{any}` | TODO description |
-| `{all}` | `{all}` | TODO description |
-
-TODO: any & all ^
+| `{if(condition comparison op condition):then\|else}` | `{if({user.name}==imdarkdiamond):Hello Dark\|You're not dark!}` | evaluates a single condition. Shows/executes `then` if true, `else` if false. |
+| `{any(condition comparison op condition\|...):then\|else}` | `{any({user.name}==imdarkdiamond\|{user.name}==bob):Hello Dark or Bob\|You're not Dark or Bob!}` | evaluates multiple conditions with OR logic. Shows/executes `then` if at least one condition is true, otherwise `else`. |
+| `{all(condition comparison op condition\|...):then\|else}` | `{all({user.name}==imdarkdiamond\|{add:5+{args}}>10):You're Dark and {args} + 5 is greater than 10\|You're not Dark or {args} + 5 is not greater than 10}` | evaluates multiple conditions with AND logic. Shows/executes `then` if every condition is true, otherwise `else`. |
 
 ### Storage
 
-Storage is not persistent and only lives during the cc/ar execution. Persistent storage will be provided in a future update.
+Storage is not persistent and only lives during the cc execution. Persistent storage will be provided in a future update.
 
 | **Function** | **Example** | **Description** |
 | - | - | - |
@@ -179,7 +183,10 @@ Arrays are defined as `value0|value1|value2|...`.
 
 | **Function** | **Example** | **Description** |
 | - | - | - |
-| `{add:}` | `{add:5+5}` | add two numbers. to subtract use a negative number |
+| `{add:}` | `{add:5+5}` | add two numbers |
+| `{sub:}` | `{sub:5-5}` | subtract two numbers |
+| `{multiply:}` | `{add:5*5}` | multiply two numbers |
+| `{divide:}` | `{divide:5/5}` | divide two numbers |
 | `{round:}` | `{round:5.5}` | round a number |
 | `{floor:}` | `{floor:5.5}` | round down a number |
 | `{range:}` | `{range5\|5}` | generate a random number in the range |

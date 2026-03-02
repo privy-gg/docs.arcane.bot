@@ -8,7 +8,7 @@ search: false
 On this page we have two different verify commands. Firstly, we have a simple command which members run to verify themselves. The second example showcases a command where only a moderator can verify a user.
 
 
-These commands showcase using the [storage](/tag-system/tags#storage), [add role](/tag-system/tags#modify-roles), & [requirements](/tag-system/tags#requirements) tags.
+These commands showcase using the [storage](/tag-system/reference#storage), [add role](/tag-system/reference#modify-roles), & [requirements](/tag-system/reference#requirements) tags.
 
 ## Example 1
 

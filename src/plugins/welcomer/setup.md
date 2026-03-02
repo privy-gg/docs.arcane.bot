@@ -28,7 +28,7 @@ Tags can be used in the message and image fields.
 
 ## Embeds
 
-Welcome and goodbye messages support embeds. See [Embeds](/tag-system/tags#embeds).
+Welcome and goodbye messages support embeds. See [Embeds](/tag-system/reference#embeds).
 
 ## Image
 

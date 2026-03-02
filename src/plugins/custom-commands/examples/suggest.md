@@ -5,7 +5,7 @@ search: false
 
 # Suggest Command
 
-A simple suggest command which showcases using the [embed](/tag-system/tags#embeds), [args](/tag-system/tags#args), & [redirect](/tag-system/tags#behavior) tags. The user's suggestion will be sent to your #suggestions channel.
+A simple suggest command which showcases using the [embed](/tag-system/reference#embeds), [args](/tag-system/reference#args), & [redirect](/tag-system/reference#behavior) tags. The user's suggestion will be sent to your #suggestions channel.
 
 ```
 {redirect:suggestions}

@@ -75,7 +75,7 @@ You then leveled up to level 5. Here's the levelup message:
 
 #### Embeds
 
-The levelup message supports embeds. See [Embeds](/tag-system/tags#embeds).
+The levelup message supports embeds. See [Embeds](/tag-system/reference#embeds).
 
 #### Advanced tags
 
@@ -83,10 +83,10 @@ The levelup message supports embeds. See [Embeds](/tag-system/tags#embeds).
 Advanced tags require a [Premium subscription](/premium.md)
 :::
 
-Levelup messages also support **most** [advanced tags](/tag-system/index) such as:
-- [`{if()...}`](/tag-system/tags#conditionals)
-- [`{contains()...}`](/tag-system/tags#arrays)
-- [`{choose:one|two|three}`](/tag-system/tags#choose)
+Levelup messages also support **most** [advanced tags](/tag-system/reference) such as:
+- [`{if()...}`](/tag-system/reference#conditionals)
+- [`{contains()...}`](/tag-system/reference#arrays)
+- [`{choose:one|two|three}`](/tag-system/reference#choose)
 - and more
 
 Role management tags are not supported in levelup messages. Use [Role Rewards](./role-rewards)
