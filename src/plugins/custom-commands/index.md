@@ -4,7 +4,7 @@ outline: deep
 
 # Custom Commands
 
-Create custom commands with scriptable or static responses using Arcane's [Tag System](../../../tag-system/reference)
+Create custom commands with scriptable or static responses using Arcane's [Tag System](../../tag-system/reference)
 
 ### Setup
 
