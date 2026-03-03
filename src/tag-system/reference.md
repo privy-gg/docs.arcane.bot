@@ -2,10 +2,14 @@
 outline: deep
 ---
 
-# Tag Reference
+# Tag System v2 Reference
 
 ::: tip
 Throughout the tag system docs we will refer to [custom commands](/plugins/custom-commands/index) as "cc"
+:::
+
+::: info
+Tag System v2 has breaking changes. While we don't expect further breaking changes, we reserve the right to change, modify, remove, or break tags, syntax, variables, or functionality at any time for bug fixes, improvements, or other reasons.
 :::
 
 Tags are either a variable or a function. Function tags typically do not return a value and will be omitted from the response. On this page you will find a full list of supported tags. Tags which are not documented are unsupported and can be removed at any time. 
@@ -161,7 +165,6 @@ Arrays are defined as `value0|value1|value2|...`.
 | **Function** | **Example** | **Description** |
 | - | - | - |
 | `{arrayname[i]}` | `{args[0]}` `{args[2]}` `{myarray[0]}` | get the element at an index from an array |
-| `{contains(value):array}` | `{contains(hello):hello\|world}` -> `true` | check an array for an element |
 
 ### Util
 
@@ -169,6 +172,7 @@ Arrays are defined as `value0|value1|value2|...`.
 | - | - | - |
 | `{len:}` | `{len:test\|test1\|test2}` -> `3` `{len:string length}` -> `13` | get the length of an array or string |
 | `{join():}` | `{join( ):hello\|world}` -> `hello world` `{join(_):hello\|world}` -> `hello_world` | join elements of an array into a string |
+| `{contains(value):array}` `{contains(value):string}` | `{contains(hello):hello\|world}` -> `true` `{contains(world):hello world}` -> `true` | check an array for an element |
 | `{replace(replace\|with):}` | `{replace(hello\|bye):hello world}` -> `bye world` | replace part of a string with another string |
 | `{uppercase:}` | `{uppercase:hello world}` -> `HELLO WORLD` | make a string uppercase |
 | `{lowercase:}` | `{lowercase:HELLO WORLD}` -> `hello world` | make a string lowercase |

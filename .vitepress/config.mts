@@ -161,7 +161,7 @@ export default defineConfig({
             },
 
             {
-	            text: "Tag System",
+	            text: "Tag System v2",
 	            items: [
 					{ text: "Reference", link: "/tag-system/reference" },
 	            ],
