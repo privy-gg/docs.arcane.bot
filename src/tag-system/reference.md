@@ -18,7 +18,7 @@ Variables can be either a string or an [array](#arrays).
 
 | **Variable** | **Example** | **Description** |
 | - | - | - |
-| `{args}` | hello world | the args as an [array](#arrays) |
+| `{args}` | hello world | get all of the args |
 | `{args[0]}` | hello | get the first arg |
 | `{args[1]}` | world | get the second arg |
 | `{args_array}` | hello\|world | the args as an [array](#arrays) |
@@ -135,7 +135,7 @@ You can have multiple requirement functions in a cc
 | `{delete}` | `{delete}` | delete the message that triggered the cc |
 | `{delete_reply:}` | `{delete_reply:30}` | delete the reply after X time in seconds |
 | `{redirect:}` | `{redirect:general}` `{redirect:902348151170670633}` | redirect the cc response to a different channel |
-| `{break}` | `{break:Ending early!}` | end the cc early and return a message |
+| `{break:}` | `{break:Ending early!}` | end the cc early and return a message |
 
 ### Conditionals
 
@@ -147,7 +147,7 @@ You can have multiple requirement functions in a cc
 
 ### Storage
 
-Storage is not persistent and only lives during the cc execution. Persistent storage will be provided in a future update.
+Storage is not persistent and only lives during the cc execution. Persistent storage may be provided in a future update.
 
 | **Function** | **Example** | **Description** |
 | - | - | - |
@@ -189,4 +189,4 @@ Arrays are defined as `value0|value1|value2|...`.
 | `{divide:}` | `{divide:5/5}` | divide two numbers |
 | `{round:}` | `{round:5.5}` | round a number |
 | `{floor:}` | `{floor:5.5}` | round down a number |
-| `{range:}` | `{range5\|5}` | generate a random number in the range |
+| `{range:}` | `{range:1\|5}` | generate a random number in the range |

@@ -15,4 +15,4 @@ A simple hug command which showcases using the [embed](/tag-system/reference#emb
 
 Usage: `/hug target:Arcane chan` `!hug @Arcane Chan`
 
-TODO: screenshot
+![Hug command example](../../../images/custom-commands/examples/hug.png)

@@ -8,4 +8,7 @@ outline: deep
 - [`Suggest`](./suggest)
 - [`Verify`](./verify)
 - [`Say`](./say)
-- // TODO: id like ~10 examples but i am not creative
+- [`Roll`](./roll)
+- [`8Ball`](./8ball)
+
+You can contribute more examples on our [GitHub](https://github.com/privy-gg/docs.arcane.bot).

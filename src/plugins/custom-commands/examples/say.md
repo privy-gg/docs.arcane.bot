@@ -15,4 +15,4 @@ A simple command which showcases using the [args](/tag-system/reference#args) an
 
 Usage: `/say args:Important server news!` `!say Important server news!`
 
-TODO: screenshot
+![Say command example](../../../images/custom-commands/examples/say.png)

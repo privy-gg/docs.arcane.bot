@@ -24,7 +24,7 @@ You have been verified! Welcome to the server. Check out <#902348151170670633>
 
 Usage: `/verify` `!verify`
 
-TODO: screenshot
+![Verify self command example](../../../images/custom-commands/examples/verify-self.png)
 
 ## Example 2
 
@@ -45,4 +45,4 @@ An advanced verify command which can only be ran by moderators.
 
 Usage: `/verify target:Arcane chan` `!verify @Arcane chan`
 
-TODO: screenshot
+![Verify target command example](../../../images/custom-commands/examples/verify-target.png)

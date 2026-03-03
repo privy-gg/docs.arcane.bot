@@ -18,6 +18,8 @@ A simple suggest command which showcases using the [embed](/tag-system/reference
 {embed.timestamp}
 ```
 
-Usage: `/suggest args:Make custom commands useful` `!suggest Make custom commands useful`
+Usage: `/suggest args:Add some custom commands` `!suggest Add some custom commands`
 
-TODO: screenshot
+![Suggest command example](../../../images/custom-commands/examples/suggest.png)
+
+![Suggest command output example](../../../images/custom-commands/examples/suggest-output.png)

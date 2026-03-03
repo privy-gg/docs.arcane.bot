@@ -12,14 +12,27 @@ Setup is done on the [dashboard](../../core/dashboard).
 
 ## Creating a custom command
 
-You can create a custom command on the [dashboard](../../core/dashboard).
+<video controls="controls" src="../../images/custom-commands/create-commands.mp4" /> 
+
+### Name
 
 The command name should **NOT** include a prefix. So if you want to make `/hello` or `!hello` the command name is just "hello". Custom commands use your server's prefix.
 
+### Response
+
 Responses can utilize our [tag system](/tag-system/reference). See some of our example commands [here](./examples/index).
 
-TODO:
-<!-- <video controls="controls" src="../../images/custom-commands/create-command.mp4" /> -->
+### Cooldown
+
+The cooldown limits how often the custom command can be ran by a single user. A cooldown is not necessary. 
+
+### NSFW
+
+::: danger DANGER
+Failing to enable this risks server **blacklist** for violating Arcane and Discord ToS.
+:::
+
+If a custom command outputs NSFW content, enable the **NSFW toggle**. This will restrict the command to NSFW-marked channels only.  
 
 ### Limits
 
@@ -27,6 +40,10 @@ TODO:
 | - | - |
 | Free | 5 |
 | Premium | 100 |
+
+## Sync commands
+
+You can sync commands to your Discord server by using the "Sync commands" button. This will instruct Arcane to create the slash commands in your server. 
 
 ## Updating a custom command
 

@@ -127,8 +127,6 @@ export default defineConfig({
 							{
 								text: "Examples",
 								link: "/plugins/custom-commands/examples/",
-								items: [],
-								collapsed: true,
 							}
 						],
 	                    collapsed: true
@@ -166,17 +164,6 @@ export default defineConfig({
 	            text: "Tag System",
 	            items: [
 					{ text: "Reference", link: "/tag-system/reference" },
-					{
-						text: "Examples",
-						link: "/tag-system/examples/",
-						items: [
-							{
-								text: "Conditionals",
-								link: "/tag-system/examples/conditionals"
-							}
-						],
-						collapsed: true
-				 	},
 	            ],
 	        },
 
