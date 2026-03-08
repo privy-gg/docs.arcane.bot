@@ -47,12 +47,21 @@ export default defineConfig({
 		                text: "Frequently Asked",
 		                link: "/frequently-asked-questions",
 		            },
+             	]
+         	},
+          {
+          		text: "Premium",
+            		items: [
 		            {
 		                text: "Premium",
 		                link: "/premium",
 		            },
-             	]
-         	},
+		            {
+		                text: "Custom Bots",
+		                link: "/custom-bots",
+		            },
+              	]
+          	},
           	{
           		text: "Core",
             		items: [
@@ -178,7 +187,7 @@ export default defineConfig({
         },
 
         footer: {
-            copyright: 'Copyright © 2025 Privy.gg LLC'
+            copyright: 'Copyright © 2025-2026 Privy.gg LLC'
         },
     },
 

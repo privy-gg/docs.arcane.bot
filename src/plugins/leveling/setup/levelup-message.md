@@ -8,7 +8,7 @@ outline: deep
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![Levelup message](../../../images/leveling/levelup-message.png)
+<video controls="controls" src="../../../images/leveling/levelup-message.mp4" />
 
 ## Levelup Message
 
@@ -29,6 +29,8 @@ Default message:
 Tags can be used inside of the levelup message.
 
 ##### User
+- `{user.level}` - The user's new level
+- `{user.xp}` - The user's new XP progress to their next level. (NOT total XP earned)
 - `{user.mention}` - Mentions the user
 - `{user.username}` `{user.name}` - The username of the member
 - `{user.id}` - The id of the member
@@ -68,7 +70,7 @@ You just leveled up to level 3. Here's the levelup message that will send:
 You then leveled up to level 5. Here's the levelup message:
 
 ```
-@ImDarkDiamond is now level 3. They received the **Active members** role!
+@ImDarkDiamond is now level 5. They received the **Active members** role!
 ```
 :::
 </details>
