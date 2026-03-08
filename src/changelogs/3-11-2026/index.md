@@ -1,11 +1,11 @@
 ---
 outline: deep
 search: false
-date: 3-31-2026
+date: 3-11-2026
 title: Custom commands rewrite
 ---
 
-# 3-31-2026
+# 3-11-2026
 
 ## Custom Commands Rewrite
 
