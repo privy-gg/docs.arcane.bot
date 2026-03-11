@@ -82,6 +82,7 @@ The target is only available if a target was supplied. Eg `!test @imdarkdiamond`
 | `{embed.color:}` | `{embed.color:40B2B0}` `{embed.color:#40B2B0}` | add a color to an embed |
 | `{embed.timestamp}` | `{embed.timestamp}` | add a timestamp to an embed |
 | `{embed.author:}` | `{embed.author:Name\|url\|image url}` | add an author to an embed. url & image url are optional |
+| `{embed.image:}` | `{embed.image:https://cdn.discord.com}` `{embed.image:levelup.png}` | add an image to the embed. can be an external url or the filename of the image Arcane uploads |
 
 ### Modify Roles
 
@@ -176,6 +177,7 @@ Arrays are defined as `value0|value1|value2|...`.
 | `{replace(replace\|with):}` | `{replace(hello\|bye):hello world}` -> `bye world` | replace part of a string with another string |
 | `{uppercase:}` | `{uppercase:hello world}` -> `HELLO WORLD` | make a string uppercase |
 | `{lowercase:}` | `{lowercase:HELLO WORLD}` -> `hello world` | make a string lowercase |
+| `{pretty:}` | `{pretty:123456}` -> `123,456` | format a number |
 
 ### Comments
 
