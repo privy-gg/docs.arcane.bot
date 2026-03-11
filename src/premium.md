@@ -30,6 +30,7 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 | Reaction leveling/XP | Yes | Yes |
 | Custom reaction XP values | No | Yes |
 | Custom level images | No | Yes |
+| Advanced tags in level-up message | No | Yes |
 | Role rewards | 15 | ∞ |
 | Role rewards per level | 1 | 3 |
 | First place role updates | Daily | Hourly |
@@ -68,7 +69,7 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 1. Additional Youtube alerts can be purchased. Read more <a href="./plugins/youtube#limits">here</a>
 </sub>
 
-<sub>Last updated: Sep 15th, 2025</sub>
+<sub>Last updated: March 11th, 2026</sub>
 
 ## Activation
 

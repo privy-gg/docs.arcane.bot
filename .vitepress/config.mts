@@ -130,7 +130,14 @@ export default defineConfig({
 	                },
 	                {
 	                    text: "Custom Commands",
-	                    link: "/plugins/custom-commands/placeholder",
+	                    items: [
+							{ text: "Introduction", link: "/plugins/custom-commands/" },
+							{ text: "Setup", link: "/plugins/custom-commands/setup" },
+							{
+								text: "Examples",
+								link: "/plugins/custom-commands/examples/",
+							}
+						],
 	                    collapsed: true
 	                },
 	                {
@@ -161,6 +168,13 @@ export default defineConfig({
 	                },
                 ]
             },
+
+            {
+	            text: "Tag System v2",
+	            items: [
+					{ text: "Reference", link: "/tag-system/reference" },
+	            ],
+	        },
 
             {
             	text: 'Changelogs',

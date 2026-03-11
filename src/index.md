@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Commands
       link: /core/commands/list
+    - theme: alt
+      text: Tag System
+      link: /tag-system/reference
 
 features:
   - icon: 📈
@@ -37,7 +40,7 @@ features:
   - icon: ⁄
     title: Custom Commands
     details: Use custom commands to build additional functionality for your server.
-    link: plugins/custom-commands/placeholder
+    link: plugins/custom-commands
   - icon: 👋
     title: Welcomer/Goodbye
     details: Great and welcome your newest members with a welcome message, image, and reactions.
