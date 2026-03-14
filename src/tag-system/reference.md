@@ -77,7 +77,7 @@ The target is only available if a target was supplied. Eg `!test @imdarkdiamond`
 | - | - | - |
 | `{embed.title:}` | `{embed.title:Hello World}` | add a title to an embed |
 | `{embed.description:}` | `{embed.description:Hello World}` | add a description to an embed |
-| `{embed.footer:}` | `{embed.title:Hello World}` | add a footer to an embed |
+| `{embed.footer:}` | `{embed.footer:Hello World}` | add a footer to an embed |
 | `{embed.field:}` | `{embed.field:Title\|Description}` | add a field with a title and description to an embed |
 | `{embed.color:}` | `{embed.color:40B2B0}` `{embed.color:#40B2B0}` | add a color to an embed |
 | `{embed.timestamp}` | `{embed.timestamp}` | add a timestamp to an embed |
