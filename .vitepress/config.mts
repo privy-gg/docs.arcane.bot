@@ -121,8 +121,17 @@ export default defineConfig({
 	                },
 	                {
 	                    text: "Role Management",
-	                    link: "/plugins/roles/placeholder",
-	                    collapsed: true
+	                    items: [
+							{ text: "Introduction", link: "/plugins/roles/" },
+							{
+								text: "Setup",
+								items: [
+									{ text: "Auto Roles", link: "/plugins/roles/setup/auto-roles" },
+									{ text: "Reaction Roles", link: "/plugins/roles/setup/reaction-roles" },
+								]
+							},
+	                    ],
+	                    collapsed: true,
 	                },
 	                {
 	                    text: "Youtube Notifications",

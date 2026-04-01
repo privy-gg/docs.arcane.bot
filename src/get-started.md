@@ -8,7 +8,7 @@ This is the documentation for [Arcane.bot](https://arcane.bot). These docs are a
 
 - [Leveling](./plugins/leveling/index)
 - [Moderation](./plugins/moderation/index)
-- [Role Management](./plugins/roles/placeholder)
+- [Role Management](./plugins/roles/index)
 - [Youtube](./plugins/youtube)
 - [Custom Commands](./plugins/custom-commands/index)
 - [Welcomer/Goodbye](./plugins/welcomer/index)
