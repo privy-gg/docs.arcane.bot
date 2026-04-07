@@ -23,4 +23,4 @@ We have updated Auto Roles to support adding multiple roles on join if you have 
 
 ### Documentation
 
-We have added [Auto Roles](/plugins/roles/auto-roles) and [Reaction Roles](/plugins/roles/reaction-roles) to our [documentation](https://docs.arcane.bot).
+We have added [Auto Roles](/plugins/roles/setup/auto-roles) and [Reaction Roles](/plugins/roles/setup/reaction-roles) to our [documentation](https://docs.arcane.bot).
