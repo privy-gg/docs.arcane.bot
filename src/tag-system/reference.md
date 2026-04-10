@@ -196,3 +196,17 @@ Arrays are defined as `value0|value1|value2|...`.
 | `{round:}` | `{round:5.5}` | round a number |
 | `{floor:}` | `{floor:5.5}` | round down a number |
 | `{range:}` | `{range:1\|5}` | generate a random number in the range |
+
+# Special Characters
+
+In some tags you may need to use special character tags due to how the tag system parses tags. 
+
+| **Function** | **Output** |
+| - | - | 
+| `{lcurly}` | `{` |
+| `{rcurly}` | `}` |
+| `{lparen}` | `(` |
+| `{rparen}` | `)` |
+| `{lbracket}` | `[` |
+| `{rbracket}` | `]` |
+| `{pipe}` | `\|` |
