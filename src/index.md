@@ -32,7 +32,7 @@ features:
   - icon: 🎨
     title: Role Management
     details: Assign roles on join or allow members to select their roles with reaction roles.
-    link: plugins/roles/placeholder
+    link: plugins/roles
   - icon: 🎥
     title: Youtube Notifications
     details: Announce your newest videos, shorts, and streams with Youtube notifications.

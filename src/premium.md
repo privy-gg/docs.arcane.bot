@@ -11,7 +11,7 @@ Our website also serves ads to help with operational costs. Please feel free to 
 
 ## Pricing
 
-Premium perks are **$7** per discord server. For the most accurate pricing and feature list please visit https://arcane.bot/premium.
+For the most accurate pricing and feature list please visit https://arcane.bot/premium.
 
 ## Feature list
 
@@ -60,6 +60,7 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 | First message reactions | 1 | 10 |
 | **Roles** |
 | Reaction roles | 10 | 100 |
+| Auto roles | 1 | 10 |
 | **Youtube Notifications** |
 | Youtube Alerts | 2 | 5<sup>1</sup> |
 | **Custom Commands** |
@@ -69,7 +70,7 @@ Premium perks are **$7** per discord server. For the most accurate pricing and f
 1. Additional Youtube alerts can be purchased. Read more <a href="./plugins/youtube#limits">here</a>
 </sub>
 
-<sub>Last updated: March 11th, 2026</sub>
+<sub>Last updated: April 13th, 2026</sub>
 
 ## Activation
 
