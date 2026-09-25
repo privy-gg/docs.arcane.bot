@@ -11,6 +11,9 @@ hero:
       text: Get started
       link: /get-started
     - theme: alt
+      text: Support Server
+      link: https://discord.gg/arcane
+    - theme: alt
       text: FAQ
       link: /frequently-asked-questions
     - theme: alt
@@ -21,6 +24,11 @@ hero:
       link: /tag-system/reference
 
 features:
+  - icon: ❓
+    title: Support
+    details: Can't find the answer in the docs? Ask in our support server.
+    link: https://discord.gg/arcane
+    rel: external
   - icon: 📈
     title: Leveling
     details: Enhance server engagement by granting XP to members for sending messages or for being in voice channels.

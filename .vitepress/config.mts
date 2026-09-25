@@ -21,7 +21,8 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "Home", link: "/" },
-            { text: "Add bot", link: "https://arcane.bot/invite" },
+			{ text: "Add bot", link: "https://arcane.bot/invite" },
+            { text: "Support Server", link: "https://discord.gg/arcane" },
             { text: "Dashboard", link: "https://arcane.bot/dashboard" }
         ],
 

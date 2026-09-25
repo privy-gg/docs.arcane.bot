@@ -6,6 +6,10 @@ outline: deep
 
 Here are some common questions we receive. Please read them all before asking for help in our server.
 
+## How do I join your support server?
+
+You can join our support server here: [`https://discord.gg/arcane`](https://discord.gg/arcane)
+
 ## Difference between Arcane and Arcane-chan ✨
 
 ::: warning
