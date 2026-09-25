@@ -5,7 +5,7 @@ lastUpdated: true
 
 # Premium
 
-Premium allows us to pay for hosting, salaries, and other required expenditures to run Arcane for over 2,700,000 million Discord servers. Unfortunately, running large real time services is not cheap. Development and support is more than a full time commitment.
+Premium allows us to pay for hosting, salaries, and other required expenditures to run Arcane for over 3,100,000 million Discord servers. Unfortunately, running large real time services is not cheap. Development and support is more than a full time commitment.
 
 Our website also serves ads to help with operational costs. Please feel free to use an ad blocker to remove them if you don't like advertisements.
 
@@ -90,7 +90,9 @@ It depends. If you purchased premium through https://arcane.bot/premium then you
 
 ## Transferring
 
-You can transfer your premium subscription to a new server one time on the [dashboard](https://arcane.bot/premium) under "Active subscriptions."
+You can transfer your premium subscription to a new server one time on the [dashboard](https://arcane.bot/premium) under "Active subscriptions." 
+
+If you need to transfer your server multiple times you can reach out to Arcane staff in `https://discord.gg/arcane` to request an additional transfer.
 
 Unfortunately, we are unable to transfer your subscription from one Discord account to another. You will need to cancel and resubscribe on your new account.
 

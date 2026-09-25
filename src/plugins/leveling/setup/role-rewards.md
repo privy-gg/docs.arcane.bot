@@ -8,7 +8,7 @@ outline: deep
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![Role rewards](../../../images/leveling/rolerewards-dashboard.png)
+<video controls="controls" src="../../../images/leveling/role-rewards.mp4" />
 
 ## Role Rewards
 
