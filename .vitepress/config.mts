@@ -13,14 +13,16 @@ export default defineConfig({
 				type: 'application/json'
 			},
 			JSON.stringify({
-				type: ComponentType.Container,
-				accent_color: 0x3FB3B1,
-				components: [
-					{
-						type: ComponentType.TextDisplay,
-						content: `[${pageData.title} | Arcane.bot](https://docs.arcane.bot/${pageData.relativePath.replace('.md', '')})`
-					}
-				],
+				component: {
+					type: ComponentType.Container,
+					accent_color: 0x3FB3B1,
+					components: [
+						{
+							type: ComponentType.TextDisplay,
+							content: `[${pageData.title} | Arcane.bot](https://docs.arcane.bot/${pageData.relativePath.replace('.md', '')})`
+						}
+					],
+				}
 			})
 		])
 
