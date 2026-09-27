@@ -1,7 +1,32 @@
-import { defineConfig } from "vitepress"
+import { defineConfig, HeadConfig } from "vitepress"
+import { ComponentType } from "./discord";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+	transformHead({ pageData }) {
+		const head: HeadConfig[] = [];
+
+		head.push([
+			'script',
+			{
+				id: 'discord:component-embed',
+				type: 'application/json'
+			},
+			JSON.stringify({
+				type: ComponentType.Container,
+				accent_color: 0x3FB3B1,
+				components: [
+					{
+						type: ComponentType.TextDisplay,
+						content: `[${pageData.title} | Arcane.bot](https://docs.arcane.bot/${pageData.relativePath.replace('.md', '')})`
+					}
+				],
+			})
+		])
+
+		return head;
+	},
+
     srcDir: 'src',
 
     title: "Arcane.bot",
