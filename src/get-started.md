@@ -2,7 +2,7 @@
 
 # Introduction
 
-This is the documentation for [Arcane.bot](https://arcane.bot). These docs are a work in progress and not complete.
+This is the documentation for [Arcane.bot](https://arcane.bot). 
 
 ## Plugins
 

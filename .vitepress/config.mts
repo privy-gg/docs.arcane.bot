@@ -5,9 +5,12 @@ export default defineConfig({
     srcDir: 'src',
 
     title: "Arcane.bot",
-    description: "Documentation and setup guide for Arcane.bot",
+	description: "Documentation and setup guide for Arcane.bot",
+	lang: 'en-US',
 
-    head: [
+	lastUpdated: true,
+
+	head: [
         ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
     ],
 
@@ -194,9 +197,15 @@ export default defineConfig({
 
         outline: {
             level: 1,
-        },
+		},
 
-        footer: {
+		lastUpdated: {
+			formatOptions: {
+				timeStyle: undefined,
+			}
+		},
+
+		footer: {
             copyright: 'Copyright © 2025-2026 Privy.gg LLC'
         },
     },
