@@ -15,4 +15,4 @@ A simple command which showcases using the [args](/tag-system/reference#args) an
 
 Usage: `/8ball args:Will I pass my test` `!8ball Will I pass my test`
 
-![Roll command example](../../../images/custom-commands/examples/8ball.png)
+![Roll command example](/images/custom-commands/examples/8ball.png)

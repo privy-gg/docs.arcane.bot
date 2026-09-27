@@ -41,11 +41,11 @@ Arcane has 18 counter types.
 
 Arcane can create 2 default counters in bulk: (Members & Users)
 
-![Counter default setup](../../images/counters/default.png)
+![Counter default setup](/images/counters/default.png)
 
 or you can manually create counters:
 
-![Counter manual setup](../../images/counters/manual.png)
+![Counter manual setup](/images/counters/manual.png)
 
 Use the `{count}` tag to indicate where the count should go.
 
@@ -70,7 +70,7 @@ Arcane has 6 goal counter types.
 
 ### Setup
 
-![Goal counter setup](../../images/counters/goal.png)
+![Goal counter setup](/images/counters/goal.png)
 
 Goals are separated by commas.
 

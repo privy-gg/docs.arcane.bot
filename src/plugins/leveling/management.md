@@ -43,7 +43,7 @@ Resetting statistics CANNOT be undone
 
 By default, when resetting levels and xp, Arcane will not reset statistics (messages, reactions, voice time, etc). If you would like these to be reset you can toggle reset stats when running `/xp` or when on the online leaderboard.
 
-![Reset stats](../../images/leveling/reset-stats.png)
+![Reset stats](/images/leveling/reset-stats.png)
 
 ## Resetting members who have left
 
@@ -53,4 +53,4 @@ Arcane can automatically reset members who leave your server with the [Auto rese
 
 To reset the XP & level of a member who has left the server you will need to go to the online leaderboard.
 
-<video controls="controls" src="../../images/leveling/reset-left-member.mp4" />
+<video controls="controls" src="/images/leveling/reset-left-member.mp4" />

@@ -12,7 +12,7 @@ Arcane can notify your members of new videos, streams, and shorts.
 Setup is done on the [dashboard](../core/dashboard).
 :::
 
-<video controls="controls" src="../images/youtube-notification-creation.mp4" />
+<video controls="controls" src="/images/youtube-notification-creation.mp4" />
 
 ### Youtube Channel ID
 
@@ -39,7 +39,7 @@ To mention a role the format is `<@&ROLE_ID>`. For example: `<@&1367681624841519
 
 Here's a simple way to get the role id. Just do this in a private channel so you don't ping anyone ;)
 
-<video controls="controls" src="../images/get-role-id.mp4" />
+<video controls="controls" src="/images/get-role-id.mp4" />
 
 ### Limits
 

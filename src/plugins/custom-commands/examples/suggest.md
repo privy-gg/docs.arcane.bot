@@ -20,6 +20,6 @@ A simple suggest command which showcases using the [embed](/tag-system/reference
 
 Usage: `/suggest args:Add some custom commands` `!suggest Add some custom commands`
 
-![Suggest command example](../../../images/custom-commands/examples/suggest.png)
+![Suggest command example](/images/custom-commands/examples/suggest.png)
 
-![Suggest command output example](../../../images/custom-commands/examples/suggest-output.png)
+![Suggest command output example](/images/custom-commands/examples/suggest-output.png)

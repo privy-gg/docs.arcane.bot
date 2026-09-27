@@ -16,11 +16,11 @@ We've added some additional configuration to the `/xp` command. These settings a
 - Disable `/xp` command
 - Disable xp reset
 
-![XP management](../../images/leveling/xp-management.png)
+![XP management](/images/leveling/xp-management.png)
 
 Additionally, we have added the ability to reset your server member's statistics when resetting their level. This will reset their message count, voice time, reaction count, etc.
 
-![Statistics reset](../../images/leveling/reset-stats.png)
+![Statistics reset](/images/leveling/reset-stats.png)
 
 ### Role Rewards
 

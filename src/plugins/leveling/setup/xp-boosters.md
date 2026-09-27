@@ -8,7 +8,7 @@ outline: deep
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![XP Boosters](../../../images/leveling/xp-boosters.png)
+![XP Boosters](/images/leveling/xp-boosters.png)
 
 ## Stack Boosters
 

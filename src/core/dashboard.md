@@ -6,7 +6,7 @@ outline: deep
 
 All of Arcane's configuration is done via our [dashboard](https://arcane.bot/dashboard).
 
-<video controls="controls" src="../images/login.mp4" />
+<video controls="controls" src="/images/login.mp4" />
 
 ### How do I save?
 

@@ -1,14 +1,31 @@
 import { defineConfig, HeadConfig } from "vitepress"
 import { ComponentType } from "./discord";
 
+const BASE_URL = 'https://component-embed.docs-arcane-bot.pages.dev';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	transformHead({ pageData }) {
+	transformHead({ pageData, content, assets }) {
 		const head: HeadConfig[] = [];
 
 		const url = `https://docs.arcane.bot/${pageData.relativePath.replace('.md', '')}`;
 
-		console.log(pageData.frontmatter);
+		let og = pageData.frontmatter.ogImage;
+
+		let media = og ? [{
+			type: ComponentType.MediaGallery,
+			items: [
+				{
+					media: {
+						url: `${BASE_URL}${pageData.frontmatter.ogImage}`
+					}
+				}
+			]
+		}, {
+			type: ComponentType.Separator,
+			spacing: 1,
+		}] : [];
+
 
 		head.push([
 			'script',
@@ -19,19 +36,20 @@ export default defineConfig({
 			JSON.stringify({
 				component: {
 					type: ComponentType.Container,
-					accent_color: 0x3FB3B1,
+					accent_color: 0x41b2b0,
 					components: [
 						{
 							type: ComponentType.TextDisplay,
-							content: `### [${pageData.title} | Arcane.bot](${url})\n${pageData.description}`
+							content: `### [${pageData.title} | Arcane.bot](${url})`
 						},
+						...media,
 						{
 							type: ComponentType.ActionRow,
 							components: [
 								{
 									type: ComponentType.Button,
 									style: 5,
-									label: 'Visit docs',
+									label: 'Visit page',
 									url,
 								},
 								{
@@ -48,7 +66,7 @@ export default defineConfig({
 								}
 							]
 						}
-					],
+					]
 				}
 			})
 		])
@@ -65,7 +83,8 @@ export default defineConfig({
 	lastUpdated: true,
 
 	head: [
-        ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
+		['link', { rel: "shortcut icon", href: "/favicon.ico" }],
+        ['meta', { property: 'theme-color', content: '#41b2b0' }]
     ],
 
     cleanUrls: true,

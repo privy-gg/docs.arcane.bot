@@ -8,7 +8,7 @@ outline: deep
 Setup is done on the [dashboard](../../core/dashboard).
 :::
 
-<video controls="controls" src="../../images/logging/setup.mp4" />
+<video controls="controls" src="/images/logging/setup.mp4" />
 
 ## Message Events
 

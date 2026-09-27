@@ -8,11 +8,11 @@ outline: deep
 Setup is done on the [dashboard](../../core/dashboard).
 :::
 
-![Custom commands setup](../../images/custom-commands/custom-commands.png)
+![Custom commands setup](/images/custom-commands/custom-commands.png)
 
 ## Creating a custom command
 
-<video controls="controls" src="../../images/custom-commands/create-commands.mp4" /> 
+<video controls="controls" src="/images/custom-commands/create-commands.mp4" /> 
 
 ### Name
 

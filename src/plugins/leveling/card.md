@@ -6,7 +6,7 @@ outline: deep
 
 Rank cards can be customized for each server you're in.
 
-![Rank card preview](../../images/leveling/card.png)
+![Rank card preview](/images/leveling/card.png)
 
 ## Configuration
 
@@ -14,7 +14,7 @@ Configuration is done on the dashboard. You can access the link to customize you
 
 Some features will require the server to have a [Premium subscription](../../premium.md)
 
-![Card settings](../../images/leveling/card-dashboard.png)
+![Card settings](/images/leveling/card-dashboard.png)
 
 ## Image
 

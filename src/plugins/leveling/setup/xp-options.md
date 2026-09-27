@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/xp-options.png
 ---
 
 # XP Options
@@ -8,7 +9,7 @@ outline: deep
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![XP Options](../../../images/leveling/xp-options.png)
+![XP Options](/images/leveling/xp-options.png)
 
 ## Formula
 
