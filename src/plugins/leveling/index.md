@@ -34,7 +34,7 @@ Depending on your server's configuration Arcane can award XP for the following a
 
 Arcane can automatically assign your members roles for their activity.
 
-![Role rewards](/images/leveling/rolerewards.png)
+![Role rewards](/images/leveling/role-rewards.png)
 
 ## Leaderboards
 

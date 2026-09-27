@@ -1,6 +1,6 @@
 ---
 outline: deep
-ogImage: /images/leveling/role-rewards.png
+ogImage: /images/leveling/role-rewards-dashboard.png
 ---
 
 # Role Rewards
