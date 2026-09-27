@@ -6,6 +6,10 @@ export default defineConfig({
 	transformHead({ pageData }) {
 		const head: HeadConfig[] = [];
 
+		const url = `https://docs.arcane.bot/${pageData.relativePath.replace('.md', '')}`;
+
+		console.log(pageData.frontmatter);
+
 		head.push([
 			'script',
 			{
@@ -19,7 +23,30 @@ export default defineConfig({
 					components: [
 						{
 							type: ComponentType.TextDisplay,
-							content: `[${pageData.title} | Arcane.bot](https://docs.arcane.bot/${pageData.relativePath.replace('.md', '')})`
+							content: `### [${pageData.title} | Arcane.bot](${url})\n${pageData.description}`
+						},
+						{
+							type: ComponentType.ActionRow,
+							components: [
+								{
+									type: ComponentType.Button,
+									style: 5,
+									label: 'Visit docs',
+									link: url,
+								},
+								{
+									type: ComponentType.Button,
+									style: 5,
+									label: 'Dashboard',
+									link: 'https://docs.arcane.bot/core/dashboard',
+								},
+								{
+									type: ComponentType.Button,
+									style: 5,
+									label: 'FAQ',
+									link: 'https://docs.arcane.bot/frequently-asked-questions',
+								}
+							]
 						}
 					],
 				}
