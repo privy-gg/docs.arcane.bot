@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/xp-restrictions.png
 ---
 
 # XP Restrictions

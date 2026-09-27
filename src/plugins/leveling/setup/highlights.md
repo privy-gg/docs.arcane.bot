@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/highlights.png
 ---
 
 # Weekly & Monthly Highlights

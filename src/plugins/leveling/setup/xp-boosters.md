@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/xp-boosters.png
 ---
 
 # XP Boosters

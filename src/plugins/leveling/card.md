@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/card.png
 ---
 
 # Rank Card

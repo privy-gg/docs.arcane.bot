@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/custom-commands/custom-commands.png
 ---
 
 # Custom Commands Setup

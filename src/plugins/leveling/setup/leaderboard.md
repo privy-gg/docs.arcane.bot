@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/leaderboard.png
 ---
 
 # Leaderboard

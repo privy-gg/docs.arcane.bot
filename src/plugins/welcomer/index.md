@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/welcomer/welcome.png
 ---
 
 # Welcomer

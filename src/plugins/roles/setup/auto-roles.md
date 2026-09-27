@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/roles/autoroles-dashboard.png
 ---
 
 # Auto Role Setup

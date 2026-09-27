@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/counters/default.png
 ---
 
 # Counters Setup

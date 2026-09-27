@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/xp-management.png
 ---
 
 # XP Management

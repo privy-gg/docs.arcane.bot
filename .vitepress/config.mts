@@ -40,7 +40,7 @@ export default defineConfig({
 					components: [
 						{
 							type: ComponentType.TextDisplay,
-							content: `### [${pageData.title} | Arcane.bot](${url})`
+							content: `### [${pageData.title} | Arcane.bot](${url})\nDocumentation and setup guide for Arcane.bot`
 						},
 						...media,
 						{
