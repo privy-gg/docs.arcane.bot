@@ -1,16 +1,27 @@
 import { defineConfig, HeadConfig } from "vitepress"
-import { ComponentType } from "./discord";
+import { ComponentType } from "./components";
+import { access, constants } from "node:fs/promises";
+import { join } from "node:path";
 
-const BASE_URL = 'https://component-embed.docs-arcane-bot.pages.dev';
+const BASE_URL = process.env.CF_PAGES_BRANCH === 'main' ? 'https://docs.arcane.bot' : process.env.CF_PAGES_URL || 'http://localhost:5173';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	transformHead({ pageData, content, assets }) {
+	async transformHead({ pageData, siteConfig, page }) {
 		const head: HeadConfig[] = [];
 
-		const url = `https://docs.arcane.bot/${pageData.relativePath.replace('.md', '')}`;
+		const url = `${BASE_URL}/${pageData.relativePath.replace('.md', '')}`;
 
 		let og = pageData.frontmatter.ogImage;
+
+		// Verify the image exists
+		if (og) {
+			try {
+				await access(join(siteConfig.srcDir, 'public', og), constants.F_OK);
+			} catch {
+				throw new Error(`Failed to resolve og image ${og} from ${page}`);
+			}
+		}
 
 		let media = og ? [{
 			type: ComponentType.MediaGallery,
@@ -26,7 +37,6 @@ export default defineConfig({
 			spacing: 1,
 		}] : [];
 
-
 		head.push([
 			'script',
 			{
@@ -40,7 +50,7 @@ export default defineConfig({
 					components: [
 						{
 							type: ComponentType.TextDisplay,
-							content: `### [${pageData.title ? `${pageData.title} |` : ''} Arcane.bot](${url})\nDocumentation and setup guide for Arcane.bot`
+							content: `### [${pageData.title ? `${pageData.title} | Arcane.bot` : 'Arcane.bot'}](${url})\nDocumentation and setup guide for Arcane.bot`
 						},
 						...media,
 						{
@@ -56,20 +66,20 @@ export default defineConfig({
 									type: ComponentType.Button,
 									style: 5,
 									label: 'Dashboard',
-									url: 'https://docs.arcane.bot/core/dashboard',
+									url: `${BASE_URL}/core/dashboard`,
 								},
 								{
 									type: ComponentType.Button,
 									style: 5,
 									label: 'FAQ',
-									url: 'https://docs.arcane.bot/frequently-asked-questions',
+									url: `${BASE_URL}/frequently-asked-questions`,
 								}
 							]
 						}
 					]
 				}
 			})
-		])
+		]);
 
 		return head;
 	},
@@ -110,9 +120,13 @@ export default defineConfig({
             { icon: "discord", link: "https://discord.gg/arcane" },
             { icon: "x", link: "https://x.com/discordarcane" },
             { icon: "github", link: "https://github.com/privy-gg/docs.arcane.bot" }
-        ],
+		],
 
-        sidebar: [
+		notFound: {
+			quote: 'The page you are requesting could not be found',
+		},
+
+		sidebar: [
         	{
          		text: "Introduction",
            		items: [
