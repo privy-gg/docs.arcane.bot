@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/leaderboard.png
 ---
 
 # Leaderboard
@@ -8,7 +9,7 @@ outline: deep
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![XP Options](../../../images/leveling/leaderboard.png)
+![XP Options](/images/leveling/leaderboard.png)
 
 ## Vanity URL
 

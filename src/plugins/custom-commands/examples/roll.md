@@ -13,4 +13,4 @@ A simple command which showcases using the [args](/tag-system/reference#args) an
 
 Usage: `/roll args:6` `!roll` `!roll 10`
 
-![Roll command example](../../../images/custom-commands/examples/roll.png)
+![Roll command example](/images/custom-commands/examples/roll.png)

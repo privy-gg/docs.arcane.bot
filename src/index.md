@@ -1,4 +1,6 @@
 ---
+ogImage: /images/banner.webp
+
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 

@@ -14,7 +14,7 @@ Please refer to [command settings](../../core/commands/settings) for restricting
 Setup is done on the [dashboard](../../core/dashboard).
 :::
 
-![Moderation settings](../../images/moderation/moderation-settings.png)
+![Moderation settings](/images/moderation/moderation-settings.png)
 
 ### Moderation Log
 
@@ -50,7 +50,7 @@ Choose how long Arcane will mute someone for if a time is not provided.
 Setup is done on the [dashboard](../../core/dashboard).
 :::
 
-![Automod filters](../../images/moderation/automod-filter-list.png)
+![Automod filters](/images/moderation/automod-filter-list.png)
 
 Arcane builds upon Discord AutoMod to automatically prevent certain messages from being sent in your server.
 
@@ -60,7 +60,7 @@ Some AutoMod filters have required settings. Make sure you click into the filter
 
 A punishment and log channel are optional but nice to have.
 
-<video controls="controls" src="../../images/moderation/automod-filter-setup.mp4" />
+<video controls="controls" src="/images/moderation/automod-filter-setup.mp4" />
 
 ### Removing AutoMod Rules
 

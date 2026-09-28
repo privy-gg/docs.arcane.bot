@@ -1,3 +1,7 @@
+---
+ogImage: /images/banner.webp
+---
+
 ![Banner](/images/banner.webp)
 
 # Introduction

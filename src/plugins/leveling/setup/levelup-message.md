@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/levelup-message.png
 ---
 
 # Levelup Message
@@ -8,7 +9,7 @@ outline: deep
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-<video controls="controls" src="../../../images/leveling/levelup-message.mp4" />
+<video controls="controls" src="/images/leveling/levelup-message.mp4" />
 
 ## Levelup Message
 
@@ -97,7 +98,7 @@ Role management tags are not supported in levelup messages. Use [Role Rewards](.
 
 Arcane can send a small levelup graphic. There are no customization options available at this time.
 
-![Levelup image](../../../images/leveling/levelup-image.png)
+![Levelup image](/images/leveling/levelup-image.png)
 
 
 ### Testing

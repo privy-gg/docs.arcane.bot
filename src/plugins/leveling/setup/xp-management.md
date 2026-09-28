@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/xp-management.png
 ---
 
 # XP Management
@@ -12,7 +13,7 @@ XP Management settings can only be configured by the server owner.
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![XP Management](../../../images/leveling/xp-management.png)
+![XP Management](/images/leveling/xp-management.png)
 
 ## Disable /xp command
 

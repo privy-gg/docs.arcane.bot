@@ -10,7 +10,7 @@ Setup is done on the [dashboard](../../core/dashboard).
 
 When setting up a welcome or goodbye message you will need to select a channel for the message to send in.
 
-<video controls="controls" src="../../images/welcomer/setup.mp4" />
+<video controls="controls" src="/images/welcomer/setup.mp4" />
 
 ## Tags
 
@@ -40,7 +40,7 @@ Upload your background image to https://imgur.com. Then follow the steps in this
 
 Background images should be 1200px wide by 500px tall.
 
-<video controls="controls" src="../../images/welcomer/imgur.mp4" />
+<video controls="controls" src="/images/welcomer/imgur.mp4" />
 
 ## Reaction
 

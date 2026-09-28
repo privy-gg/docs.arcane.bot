@@ -9,7 +9,7 @@ title: Custom Bots
 
 We are excited to announce that premium servers can now customize Arcane with your own avatar, banner, name, and about me. Read more about the feature [here](/custom-bots).
 
-![Custom bot settings](../../images/custom-bot.png)
+![Custom bot settings](/images/custom-bot.png)
 
 ## FAQ
 

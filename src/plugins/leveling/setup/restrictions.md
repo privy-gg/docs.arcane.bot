@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/leveling/xp-restrictions.png
 ---
 
 # XP Restrictions
@@ -12,7 +13,7 @@ XP Restrictions being misconfigured is our largest support item. Read the docume
 Setup is done on the [dashboard](../../../core/dashboard).
 :::
 
-![XP Restrictions](../../../images/leveling/xp-restrictions.png)
+![XP Restrictions](/images/leveling/xp-restrictions.png)
 
 ## (No) XP Channels
 

@@ -96,7 +96,7 @@ If you need to transfer your server multiple times you can reach out to Arcane s
 
 Unfortunately, we are unable to transfer your subscription from one Discord account to another. You will need to cancel and resubscribe on your new account.
 
-![Active subscriptions](./images/premium-transfer.png)
+![Active subscriptions](/images/premium-transfer.png)
 
 ## Canceling
 

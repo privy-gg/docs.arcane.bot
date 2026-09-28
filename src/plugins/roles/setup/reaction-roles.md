@@ -1,5 +1,6 @@
 ---
 outline: deep
+ogImage: /images/roles/reaction-roles-dashboard.png
 ---
 
 # Reaction Role Setup
