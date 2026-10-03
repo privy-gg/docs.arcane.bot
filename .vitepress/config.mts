@@ -90,8 +90,6 @@ export default defineConfig({
 	description: "Documentation and setup guide for Arcane.bot",
 	lang: 'en-US',
 
-	lastUpdated: true,
-
 	head: [
 		['link', { rel: "shortcut icon", href: "/favicon.ico" }],
         ['meta', { property: 'theme-color', content: '#41b2b0' }]
