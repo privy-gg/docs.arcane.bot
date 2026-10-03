@@ -284,12 +284,6 @@ export default defineConfig({
             level: 1,
 		},
 
-		lastUpdated: {
-			formatOptions: {
-				timeStyle: undefined,
-			}
-		},
-
 		footer: {
             copyright: 'Copyright © 2025-2026 Privy.gg LLC'
         },
