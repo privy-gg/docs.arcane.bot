@@ -17,7 +17,7 @@ Counters update every 15 to 20 minutes if your server has recent activity
 
 ### Counter Types
 
-Arcane has 18 counter types.
+Arcane has 19 counter types.
 
 - Members
 - Users
@@ -31,6 +31,7 @@ Arcane has 18 counter types.
 - Stage Channels
 - Members with Role
 - Members without Role
+- Members in Voice
 - Emojis
 - Nitro Boosts
 - Nitro Boost Tier
