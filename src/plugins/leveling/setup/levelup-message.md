@@ -35,6 +35,9 @@ Tags can be used inside of the levelup message.
 - `{user.mention}` - Mentions the user
 - `{user.username}` `{user.name}` - The username of the member
 - `{user.id}` - The id of the member
+- `{user.previous_level}` - The user's previous level
+- `{user.next_level}` - The user's next level
+- `{user.required_xp}` - The xp required to reach the next level
 
 ##### Image
 - `{image}` - Alternative for the "include levelup image" toggle.

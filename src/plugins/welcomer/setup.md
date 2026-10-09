@@ -36,11 +36,13 @@ Welcome and goodbye messages support embeds. See [Embeds](/tag-system/reference#
 Background images are a [Premium](../../premium) feature.
 :::
 
-Upload your background image to https://imgur.com. Then follow the steps in this video to get the direct link to the image. You can adjust the opacity if needed.
+::: danger NO NSFW CONTENT
+NSFW or any image we deem inappropriate will result in a permanent blacklist from customizing your server's welcomer backgrounds.
+
+**You can report an inappropriate background in our [support server](https://discord.gg/arcane).**
+:::
 
 Background images should be 1200px wide by 500px tall.
-
-<video controls="controls" src="/images/welcomer/imgur.mp4" />
 
 ## Reaction
 
