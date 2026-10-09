@@ -48,7 +48,7 @@ Added a new counter type (Members in Voice) which tracks the total number of mem
 
 Welcome and goodbye images can now be uploaded instead of requiring an Imgur.com url. 
 
-<!-- TODO: image for this -->
+![Welcome upload preview](./welcomer-upload.png)
 
 ### Misc
 
