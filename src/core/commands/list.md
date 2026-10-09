@@ -57,7 +57,7 @@ If a command does not support message/prefix commands it will be marked with an 
 | **Command** | **Description** | **User Permissions** |
 | - | - | - |
 | `/role info` | View a role's information | Manage Roles |
-| `/role add`<sup>*</sup> | Add a role to a member | Manage Roles | 
-| `/role remove`<sup>*</sup> | Remove a role from a member | Manage Roles |
+| `/role add`<sup>*</sup> | Add a role to a member | Manage Roles & Above role | 
+| `/role remove`<sup>*</sup> | Remove a role from a member | Manage Roles & Above role |
 | `/role create`<sup>*</sup> | Create a new role | Manage Roles |
-| `/role update`<sup>*</sup> | Update an existing role | Manage Roles |
+| `/role update`<sup>*</sup> | Update an existing role | Manage Roles & Above role |
