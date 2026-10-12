@@ -20,3 +20,9 @@ Auto roles are automatically assigned to members when they join your server.
 Reaction roles allow your members to select predefined roles by using reactions. 
 
 ![Reaction Roles](/images/roles/reaction-roles.png)
+
+## Role Commands
+
+Use `/role` to create and update roles, or `/role add` and `/role remove` to manage your member's roles.
+
+![Role Command Example](/images/roles/role-command.png)
