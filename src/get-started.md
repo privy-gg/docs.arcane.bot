@@ -21,17 +21,21 @@ This is the documentation for [Arcane.bot](https://arcane.bot).
 
 ## Other resources
 
+### Frequently Asked Questions
+
+See [Frequently Asked Questions](/frequently-asked-questions)
+
 ### Support Server
 
 You can join our [Support Server](https://discord.gg/arcane) to ask for help with the bot.
 
 Please post questions in `#help-me` and **NOT** `#general`.
 
-Please remember to read `#rules`, `#faq`, and `#help-me`'s forum rules before asking for help.
+Please remember to read `#rules`, `#faq`, and `#help-me`'s forum rules *before* asking for help.
 
 ### Videos
 
-We do not have any video tutorials and do not endorse any videos you may find. Please note that videos made by third parties may be outdated or inaccurate. Our documentation and support server is the only true source you should rely on.
+Some plugins and features have videos demonstrating their setup. Please note that third-party videos may be outdated or inaccurate. We do not endorse or recommend any third-party content. Our documentation and [support server](https://discord.gg/arcane) are the only official sources you should rely on.
 
 ## Supporting Arcane
 
