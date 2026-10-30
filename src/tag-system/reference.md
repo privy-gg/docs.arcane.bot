@@ -37,6 +37,7 @@ Variables can be either a string or an [array](#arrays).
 | `{user.id}` | 295980401560649730 | the user's id |
 | `{user.name}` | imdarkdiamond | the user's name |
 | `{user.mention}` | @imdarkdiamond | the user's mention |
+| `{user.avatar}` `{user.avatar_url}` | https://cdn.discord.com/xxx | the user's avatar url |
 | `{user.roles}` | 12345\|123456\|1234567 | the user's roles as an [array](#arrays) |
 
 ### Target Member/User
@@ -48,6 +49,7 @@ The target is only available if a target was supplied. Eg `!test @imdarkdiamond`
 | `{target.id}` | 295980401560649730 | the user's id |
 | `{target.name}` | imdarkdiamond | the user's name |
 | `{target.mention}` | @imdarkdiamond | the user's mention |
+| `{target.avatar}` `{target.avatar_url}` | https://cdn.discord.com/xxx | the user's avatar url |
 | `{target.roles}` | 12345\|123456\|1234567 | the user's roles as an [array](#arrays) |
 
 ### Guild/Server
@@ -57,7 +59,7 @@ The target is only available if a target was supplied. Eg `!test @imdarkdiamond`
 | `{guild.id}` | 437808333295058955 | the guild's id |
 | `{guild.name}` | Arcane | the guilds's name |
 | `{guild.membercount}` `{guild.members}` | 360290 | the guilds's member count |
-| `{guild.icon}` | https://cdn.discord.com/xxx | link to the guild's icon |
+| `{guild.icon}` `{guild.icon_url}` | https://cdn.discord.com/xxx | the guild's icon url |
 | `{guild.owner}` | 295980401560649730 | the guild's owner id |
 
 ### Channel
@@ -77,7 +79,8 @@ The target is only available if a target was supplied. Eg `!test @imdarkdiamond`
 | - | - | - |
 | `{embed.title:}` | `{embed.title:Hello World}` | add a title to an embed |
 | `{embed.description:}` | `{embed.description:Hello World}` | add a description to an embed |
-| `{embed.footer:}` | `{embed.footer:Hello World}` | add a footer to an embed |
+| `{embed.thumbnail:}` | `{embed.thumbnail:https://cdn.discord.com}` | add a thumbnail to an embed |
+| `{embed.footer:}` | `{embed.footer:Hello World\|image url}` | add a footer to an embed. image url is optional |
 | `{embed.field:}` | `{embed.field:Title\|Description}` | add a field with a title and description to an embed |
 | `{embed.color:}` | `{embed.color:40B2B0}` `{embed.color:#40B2B0}` | add a color to an embed |
 | `{embed.timestamp}` | `{embed.timestamp}` | add a timestamp to an embed |
