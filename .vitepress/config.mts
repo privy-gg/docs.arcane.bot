@@ -138,7 +138,7 @@ export default defineConfig({
 		            },
              	]
          	},
-          {
+          	{
           		text: "Premium",
             		items: [
 		            {
@@ -164,6 +164,10 @@ export default defineConfig({
 							{
 								text: "Command Settings",
 								link: "/core/commands/settings"
+							},
+							{
+								text: "🚨 NOTICE 🚨",
+								link: "/changelogs/11-3-2026/"
 							}
 						],
 						collapsed: true,
