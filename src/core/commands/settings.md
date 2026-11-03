@@ -18,8 +18,6 @@ You can restrict access to commands by going to your Discord server settings -> 
 
 ## Command types
 
-Arcane offers commands in two different variants:
-
 ### Slash Commands
 
 Slash Commands are built into your Discord client. Slash commands are always enabled and cannot be disabled. All of Arcane's commands support slash commands.
@@ -27,6 +25,10 @@ Slash Commands are built into your Discord client. Slash commands are always ena
 <video controls="controls" src="/images/commands/slash-commands.mp4" />
 
 ### Message Commands
+
+::: danger Message commands are deprecated
+Read more [here](/changelogs/11-3-2026/)
+:::
 
 Message commands are sent via messages. Most (but not all) commands support message commands.
 
